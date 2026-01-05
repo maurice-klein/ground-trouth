@@ -1,0 +1,33 @@
+paths:
+  input: data/raw
+  work: data/interim
+  output: data/processed
+  eval_gt: data/eval
+
+preprocess:
+  dpi: 400
+  deskew: true
+  clahe: true
+  adaptive_threshold: false
+
+layout:
+  engine: layoutparser
+  model: lp://PubLayNet/faster_rcnn_R_50_FPN_3x/config
+  min_score: 0.5
+
+ocr:
+  engine: paddle
+  lang: de
+  min_conf: 0.60
+  use_gpu: false
+
+tables:
+  engine: camelot
+  mode: auto
+
+nlp:
+  ner_model: "dbmdz/bert-base-german-cased"
+  use_regex: true
+
+eval:
+  metrics: [wer, field_f1, exact_match]

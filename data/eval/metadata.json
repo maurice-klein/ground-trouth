@@ -1,0 +1,14 @@
+{
+  "export_date": "2026-01-05T13:06:33.320192",
+  "source_file": "data\\eval\\raw\\label_studio_export.json",
+  "total_documents": 1,
+  "documents": [
+    {
+      "doc_id": "Kreditvertrag_001_Annuitätendarlehen_born",
+      "entities_file": "Kreditvertrag_001_Annuitätendarlehen_born\\entities.json",
+      "entity_count": 15,
+      "has_iban": true,
+      "has_sicherheiten": true
+    }
+  ]
+}
