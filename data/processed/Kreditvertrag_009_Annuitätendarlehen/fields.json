@@ -1,0 +1,21 @@
+{
+  "document": "Kreditvertrag_009_Annuitätendarlehen",
+  "vertragsnummer": "KV-2024-009890",
+  "darlehensnehmer": "Sicherheiten auf",
+  "kreditgeber": "FINANZBANK AG",
+  "iban": "DE21500700100444555666",
+  "iban_valid": false,
+  "bic": "DEUTDEFFXXX",
+  "darlehenssumme": "420.000,00",
+  "sollzinssatz": "2.85",
+  "effektivzinssatz": "2.91",
+  "laufzeit": "35 Jahre (420 Monate)",
+  "vertragsbeginn": "2024-05-01",
+  "vertragsende": "2059-04-30",
+  "vertragsdatum": "2024-04-15",
+  "sicherheiten": [
+    "Grundschuld 500.000,00 EUR",
+    "Lebensversicherung 450.000,00 EUR",
+    "Bürgschaft 150.000,00 EUR"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "document": "Kreditvertrag_012_Annuitätendarlehen",
+  "vertragsnummer": "KV-2024-012789",
+  "darlehensnehmer": "Sabine Zimmermann",
+  "kreditgeber": "FINANZBANK AG",
+  "iban": "DE89370400440159753852",
+  "iban_valid": false,
+  "bic": "COBADEFFXXX",
+  "darlehenssumme": "380.000,00",
+  "sollzinssatz": "3.15",
+  "effektivzinssatz": "3.22",
+  "laufzeit": "32 Jahre (384 Monate)",
+  "vertragsbeginn": "2024-06-01",
+  "vertragsende": "2056-05-31",
+  "vertragsdatum": "2024-05-20",
+  "sicherheiten": [
+    "Grundschuld 450.000,00 EUR",
+    "Lebensversicherung 400.000,00 EUR"
+  ]
+}

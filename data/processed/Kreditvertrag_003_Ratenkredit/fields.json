@@ -1,0 +1,19 @@
+{
+  "document": "Kreditvertrag_003_Ratenkredit",
+  "vertragsnummer": "RK-2024-003789",
+  "darlehensnehmer": "Thomas Becker",
+  "kreditgeber": "FINANZBANK AG",
+  "iban": "DE44500105170123456789",
+  "iban_valid": false,
+  "bic": "INGDDEFFXXX",
+  "darlehenssumme": "25.000,00",
+  "sollzinssatz": "5.90",
+  "effektivzinssatz": "6.07",
+  "laufzeit": "5 Jahre (60 Monate)",
+  "vertragsbeginn": "2024-03-01",
+  "vertragsende": "2029-02-28",
+  "vertragsdatum": "2024-02-08",
+  "sicherheiten": [
+    "Keine (Blankokredit)"
+  ]
+}

@@ -1,0 +1,396 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8" />
+<title>IDP Evaluation Report</title>
+<style>
+body { font-family: Arial, sans-serif; margin: 24px; }
+h1,h2 { margin-bottom: 6px; }
+.small { color: #555; }
+.kpi { display:flex; gap:16px; flex-wrap:wrap; margin: 12px 0 24px; }
+.card { border:1px solid #ddd; border-radius:10px; padding:12px 14px; min-width:220px; }
+.card .value { font-size:26px; font-weight:700; }
+.pass { color: #0a7; }
+.fail { color: #c33; }
+.tbl { border-collapse: collapse; width: 100%; margin: 10px 0 24px; }
+.tbl th, .tbl td { border: 1px solid #ddd; padding: 6px 8px; font-size: 13px; }
+.tbl th { background: #f6f6f6; text-align: left; }
+.note { background:#fff7e6; border:1px solid #f0d9a6; padding:10px 12px; border-radius:10px; }
+code { background:#f2f2f2; padding:1px 4px; border-radius:4px; }
+</style>
+</head>
+<body>
+<h1>IDP-Pipeline Evaluation</h1>
+<div class="small">Generiert am 2026-01-07 22:10:29</div>
+
+<div class="kpi">
+  <div class="card">
+    <div>WER (micro)</div>
+    <div class="value pass">14.35%</div>
+    <div class="small">Ziel: &lt; 15% — Wörter: 5150, Fehler: 739</div>
+  </div>
+  <div class="card">
+    <div>Field/Entity F1 (micro)</div>
+    <div class="value pass">0.910</div>
+    <div class="small">Ziel: &gt; 0.80 — TP: 137, FP: 16, FN: 11</div>
+  </div>
+  <div class="card">
+    <div>Table Exact Match (strict, micro)</div>
+    <div class="value fail">67.58%</div>
+    <div class="small">Ziel: &gt; 70%</div>
+  </div>
+  <div class="card">
+    <div>Table Exact Match (best-permutation, micro)</div>
+    <div class="value">90.97%</div>
+    <div class="small">Diagnose, falls Spalten vertauscht benannt wurden</div>
+  </div>
+</div>
+
+<div class="note">
+<b>Hinweis zu Tabellen:</b> Ein großer Gap zwischen <i>strict</i> und <i>best-permutation</i> deutet häufig auf vertauschte Spaltennamen
+(z. B. <code>Zinsen</code> ↔ <code>Tilgung</code>) hin.
+</div>
+
+<h2>WER pro Dokument</h2>
+<table class="dataframe tbl">
+  <thead>
+    <tr style="text-align: right;">
+      <th>doc</th>
+      <th>words</th>
+      <th>errors</th>
+      <th>wer_micro_%</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Kreditvertrag_012_Annuitätendarlehen</td>
+      <td>492</td>
+      <td>111</td>
+      <td>22.56</td>
+    </tr>
+    <tr>
+      <td>Kreditvertrag_008_Annuitätendarlehen</td>
+      <td>422</td>
+      <td>74</td>
+      <td>17.54</td>
+    </tr>
+    <tr>
+      <td>Kreditvertrag_010_Endfälliges_Darlehen_born</td>
+      <td>481</td>
+      <td>82</td>
+      <td>17.05</td>
+    </tr>
+    <tr>
+      <td>Kreditvertrag_007_Ratenkredit_born</td>
+      <td>483</td>
+      <td>74</td>
+      <td>15.32</td>
+    </tr>
+    <tr>
+      <td>Kreditvertrag_003_Ratenkredit</td>
+      <td>411</td>
+      <td>59</td>
+      <td>14.36</td>
+    </tr>
+    <tr>
+      <td>Kreditvertrag_001_Annuitätendarlehen_born</td>
+      <td>487</td>
+      <td>68</td>
+      <td>13.96</td>
+    </tr>
+    <tr>
+      <td>Kreditvertrag_009_Annuitätendarlehen</td>
+      <td>491</td>
+      <td>66</td>
+      <td>13.44</td>
+    </tr>
+    <tr>
+      <td>Kreditvertrag_004_Annuitätendarlehen_born</td>
+      <td>487</td>
+      <td>65</td>
+      <td>13.35</td>
+    </tr>
+    <tr>
+      <td>Kreditvertrag_011_Ratenkredit</td>
+      <td>423</td>
+      <td>53</td>
+      <td>12.53</td>
+    </tr>
+    <tr>
+      <td>Kreditvertrag_006_Annuitätendarlehen</td>
+      <td>489</td>
+      <td>51</td>
+      <td>10.43</td>
+    </tr>
+    <tr>
+      <td>Kreditvertrag_005_Endfälliges_Darlehen</td>
+      <td>484</td>
+      <td>36</td>
+      <td>7.44</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Field/Entity F1 pro Feld</h2>
+<table class="dataframe tbl">
+  <thead>
+    <tr style="text-align: right;">
+      <th>field</th>
+      <th>support</th>
+      <th>tp</th>
+      <th>fp</th>
+      <th>fn</th>
+      <th>precision_%</th>
+      <th>recall_%</th>
+      <th>f1_%</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>sicherheiten</td>
+      <td>11</td>
+      <td>8</td>
+      <td>2</td>
+      <td>3</td>
+      <td>80.0</td>
+      <td>72.7</td>
+      <td>76.2</td>
+    </tr>
+    <tr>
+      <td>bic</td>
+      <td>10</td>
+      <td>9</td>
+      <td>2</td>
+      <td>1</td>
+      <td>81.8</td>
+      <td>90.0</td>
+      <td>85.7</td>
+    </tr>
+    <tr>
+      <td>vertragsbeginn</td>
+      <td>10</td>
+      <td>9</td>
+      <td>2</td>
+      <td>1</td>
+      <td>81.8</td>
+      <td>90.0</td>
+      <td>85.7</td>
+    </tr>
+    <tr>
+      <td>laufzeit</td>
+      <td>9</td>
+      <td>9</td>
+      <td>2</td>
+      <td>0</td>
+      <td>81.8</td>
+      <td>100.0</td>
+      <td>90.0</td>
+    </tr>
+    <tr>
+      <td>darlehensnehmer</td>
+      <td>11</td>
+      <td>10</td>
+      <td>1</td>
+      <td>1</td>
+      <td>90.9</td>
+      <td>90.9</td>
+      <td>90.9</td>
+    </tr>
+    <tr>
+      <td>darlehenssumme</td>
+      <td>11</td>
+      <td>10</td>
+      <td>1</td>
+      <td>1</td>
+      <td>90.9</td>
+      <td>90.9</td>
+      <td>90.9</td>
+    </tr>
+    <tr>
+      <td>iban</td>
+      <td>11</td>
+      <td>10</td>
+      <td>1</td>
+      <td>1</td>
+      <td>90.9</td>
+      <td>90.9</td>
+      <td>90.9</td>
+    </tr>
+    <tr>
+      <td>iban_valid</td>
+      <td>11</td>
+      <td>10</td>
+      <td>1</td>
+      <td>1</td>
+      <td>90.9</td>
+      <td>90.9</td>
+      <td>90.9</td>
+    </tr>
+    <tr>
+      <td>kreditgeber</td>
+      <td>11</td>
+      <td>10</td>
+      <td>1</td>
+      <td>1</td>
+      <td>90.9</td>
+      <td>90.9</td>
+      <td>90.9</td>
+    </tr>
+    <tr>
+      <td>vertragsende</td>
+      <td>11</td>
+      <td>10</td>
+      <td>1</td>
+      <td>1</td>
+      <td>90.9</td>
+      <td>90.9</td>
+      <td>90.9</td>
+    </tr>
+    <tr>
+      <td>vertragsdatum</td>
+      <td>10</td>
+      <td>10</td>
+      <td>1</td>
+      <td>0</td>
+      <td>90.9</td>
+      <td>100.0</td>
+      <td>95.2</td>
+    </tr>
+    <tr>
+      <td>vertragsnummer</td>
+      <td>10</td>
+      <td>10</td>
+      <td>1</td>
+      <td>0</td>
+      <td>90.9</td>
+      <td>100.0</td>
+      <td>95.2</td>
+    </tr>
+    <tr>
+      <td>effektivzinssatz</td>
+      <td>11</td>
+      <td>11</td>
+      <td>0</td>
+      <td>0</td>
+      <td>100.0</td>
+      <td>100.0</td>
+      <td>100.0</td>
+    </tr>
+    <tr>
+      <td>sollzinssatz</td>
+      <td>11</td>
+      <td>11</td>
+      <td>0</td>
+      <td>0</td>
+      <td>100.0</td>
+      <td>100.0</td>
+      <td>100.0</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Tabellen: Strict vs Best-Permutation pro Dokument</h2>
+<table class="dataframe tbl">
+  <thead>
+    <tr style="text-align: right;">
+      <th>doc</th>
+      <th>pred_table</th>
+      <th>strict_exact_%</th>
+      <th>best_exact_%</th>
+      <th>strict_row_%</th>
+      <th>best_row_%</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Kreditvertrag_012_Annuitätendarlehen</td>
+      <td>table_page_001_preprocessed_0.csv</td>
+      <td>28.2</td>
+      <td>47.3</td>
+      <td>0.0</td>
+      <td>36.4</td>
+    </tr>
+    <tr>
+      <td>Kreditvertrag_008_Annuitätendarlehen</td>
+      <td>table_page_001_preprocessed_0.csv</td>
+      <td>40.0</td>
+      <td>67.3</td>
+      <td>0.0</td>
+      <td>63.6</td>
+    </tr>
+    <tr>
+      <td>Kreditvertrag_005_Endfälliges_Darlehen</td>
+      <td>table_page_001_preprocessed_0.csv</td>
+      <td>41.7</td>
+      <td>81.7</td>
+      <td>0.0</td>
+      <td>8.7</td>
+    </tr>
+    <tr>
+      <td>Kreditvertrag_001_Annuitätendarlehen_born</td>
+      <td>table_page_001_preprocessed_0.csv</td>
+      <td>60.0</td>
+      <td>100.0</td>
+      <td>0.0</td>
+      <td>100.0</td>
+    </tr>
+    <tr>
+      <td>Kreditvertrag_006_Annuitätendarlehen</td>
+      <td>table_page_001_preprocessed_0.csv</td>
+      <td>60.0</td>
+      <td>100.0</td>
+      <td>0.0</td>
+      <td>100.0</td>
+    </tr>
+    <tr>
+      <td>Kreditvertrag_009_Annuitätendarlehen</td>
+      <td>table_page_001_preprocessed_0.csv</td>
+      <td>60.0</td>
+      <td>100.0</td>
+      <td>0.0</td>
+      <td>100.0</td>
+    </tr>
+    <tr>
+      <td>Kreditvertrag_010_Endfälliges_Darlehen_born</td>
+      <td>table_page_001_preprocessed_0.csv</td>
+      <td>60.0</td>
+      <td>100.0</td>
+      <td>0.0</td>
+      <td>100.0</td>
+    </tr>
+    <tr>
+      <td>Kreditvertrag_004_Annuitätendarlehen_born</td>
+      <td>table_page_001_preprocessed_0.csv</td>
+      <td>93.3</td>
+      <td>93.3</td>
+      <td>83.3</td>
+      <td>83.3</td>
+    </tr>
+    <tr>
+      <td>Kreditvertrag_003_Ratenkredit</td>
+      <td>table_page_001_preprocessed_0.csv</td>
+      <td>100.0</td>
+      <td>100.0</td>
+      <td>100.0</td>
+      <td>100.0</td>
+    </tr>
+    <tr>
+      <td>Kreditvertrag_007_Ratenkredit_born</td>
+      <td>table_page_001_preprocessed_0.csv</td>
+      <td>100.0</td>
+      <td>100.0</td>
+      <td>100.0</td>
+      <td>100.0</td>
+    </tr>
+    <tr>
+      <td>Kreditvertrag_011_Ratenkredit</td>
+      <td>table_page_001_preprocessed_0.csv</td>
+      <td>100.0</td>
+      <td>100.0</td>
+      <td>100.0</td>
+      <td>100.0</td>
+    </tr>
+  </tbody>
+</table>
+
+</body></html>

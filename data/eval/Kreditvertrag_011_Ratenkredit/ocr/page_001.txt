@@ -1,0 +1,47 @@
+
+(2) Die Tilgung erfolgt in gleichbleibenden monatlichen Tilgungsraten. Die Zinsbelastung sinkt mit abnehmender Restschuld, sodass die Gesamtrate monatlich abnimmt.
+Die erste monatliche Rate beträgt:
+
+682,99 EUR (erste Rate, danach sinkend)
+
+Tilgungsplan (Auszug – erste 12 Monate)
+
+Monat  Datum      Tilgung (EUR)  Zinsen (EUR)  Rate (EUR)  Restschuld (EUR)
+1      1.6.2024   486,11         196,88        682,99      34.513,89
+2      1.7.2024   486,11         194,14        680,25      34.027,78
+3      1.8.2024   486,11         191,41        677,52      33.541,67
+4      1.9.2024   486,11         188,67        674,78      33.055,56
+5      1.10.2024  486,11         185,94        672,05      32.569,44
+6      1.11.2024  486,11         183,20        669,31      32.083,33
+7      1.12.2024  486,11         180,47        666,58      31.597,22
+8      1.1.2025   486,11         177,73        663,85      31.111,11
+9      1.2.2025   486,11         175,00        661,11      30.625,00
+10     1.3.2025   486,11         172,27        658,38      30.138,89
+11     1.4.2025   486,11         169,53        655,64      29.652,78
+12     1.5.2025   486,11         166,80        652,91      29.166,67
+
+Hinweis: Der vollständige Plan wird separat zur Verfügung gestellt.
+§ 5 Sicherheiten
+
+Zur Absicherung des Darlehens werden folgende Sicherheiten bestellt:
+
+a) Abtretung der Rechte aus der Risikolebensversicherung bei der Allianz Lebensversicherungs-AG,
+Versicherungsnummer: LV-2024-987654,
+Versicherungssumme: 40.000,00 EUR.
+
+§ 6 Sondertilgung und Vorfälligkeitsentschädigung
+
+(1) Der Darlehensnehmer ist berechtigt, jährlich bis zu 5,00 % der ursprünglichen Darlehenssumme ohne Vorfälligkeitsentschädigung als Sondertilgung zu leisten.
+
+§ 7 Schlussbestimmungen
+
+(1) Änderungen und Ergänzungen dieses Vertrages bedürfen der Schriftform.
+(2) Sollten einzelne Bestimmungen dieses Vertrages unwirksam sein oder werden, so wird die Wirksamkeit der übrigen Bestimmungen hiervon nicht berührt.
+(3) Es gilt das Recht der Bundesrepublik Deutschland.
+Gerichtsstand ist Frankfurt am Main.
+
+Frankfurt am Main, den 06.05.2024
+
+Darlehensgeber                      Darlehensnehmer
+
+

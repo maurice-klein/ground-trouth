@@ -1,0 +1,44 @@
+{
+  "document": "Kreditvertrag_012_Annuitätendarlehen",
+  "total_pages": 3,
+  "hybrid_mode": true,
+  "layout_filter": true,
+  "pages": [
+    {
+      "page": "page_000_preprocessed",
+      "tables_found": 0,
+      "tables": [],
+      "skipped": true,
+      "skip_reason": "Keine Table Regions in Layout"
+    },
+    {
+      "page": "page_001_preprocessed",
+      "tables_found": 1,
+      "tables": [
+        {
+          "index": 0,
+          "csv_file": "table_page_001_preprocessed_0.csv",
+          "rows": 22,
+          "cols": 5,
+          "confidence": 1.1800000000000002,
+          "hybrid_mode": true,
+          "layout_confirmed": true
+        }
+      ]
+    },
+    {
+      "page": "page_002_preprocessed",
+      "tables_found": 0,
+      "tables": [],
+      "skipped": true,
+      "skip_reason": "Keine Table Regions in Layout"
+    }
+  ],
+  "summary": {
+    "total_tables": 1,
+    "pages_with_tables": 1,
+    "hybrid_tables": 1,
+    "layout_confirmed_tables": 1,
+    "avg_confidence": 1.1800000000000002
+  }
+}

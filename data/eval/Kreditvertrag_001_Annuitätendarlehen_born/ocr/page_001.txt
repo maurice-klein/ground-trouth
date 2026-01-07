@@ -1,0 +1,43 @@
+(2) Die Tilgung erfolgt in monatlichen Annuitätenraten. Die anfängliche Tilgung beträgt 2,00 %
+p.a. Die monatliche Rate beträgt:
+
+687,50 EUR
+
+
+Tilgungsplan (Auszug - erste 24 Monate)
+
+Monat  Datum      Tilgung(EUR)  Zinsen(EUR)  Restschuld(EUR)
+1      1.2.2024   250,00        437,50      149.750,00
+2      1.3.2024   250,73        436,77      149.499,27
+3      1.4.2024   251,46        436,04      149.247,81
+4      1.5.2024   252,19        435,31      148.995,62
+5      1.6.2024   252,93        434,57      148.742,69
+6      1.7.2024   253,67        433,83      148.489,02
+7      1.8.2024   254,41        433,09      148.234,61
+8      1.9.2024   255,15        432,35      147.979,46
+9      1.10.2024  255,89        431,61      147.723,57
+10     1.11.2024  256,64        430,86      147.466,93
+11     1.12.2024  257,39        430,11      147.209,54
+12     1.1.2025   258,14        429,36      146.951,40
+13     1.2.2025   258,89        428,61      146.692,51
+14     1.3.2025   259,65        427,85      146.432,87
+15     1.4.2025   260,40        427,10      146.172,46
+16     1.5.2025   261,16        426,34      145.911,30
+17     1.6.2025   261,93        425,57      145.649,37
+18     1.7.2025   262,69        424,81      145.386,68
+19     1.8.2025   263,46        424,04      145.123,23
+20     1.9.2025   264,22        423,28      144.859,00
+21     1.10.2025  264,99        422,51      144.594,01
+22     1.11.2025  265,77        421,73      144.328,24
+23     1.12.2025  266,54        420,96      144.061,70
+24     1.1.2026   267,32        420,18      143.794,38
+
+Hinweis: Der vollständige Plan wird separat zur Verfügung gestellt.
+
+
+§ 5 Sicherheiten
+
+Zur Absicherung des Darlehens werden folgende Sicherheiten bestellt:
+
+a) Grundschuld in Höhe von 180.000,00 EUR auf dem Grundstück Musterstraße 45, 60313
+Frankfurt am Main, Grundbuch Blatt 12345, Flur 7, Flurstück 89/2.

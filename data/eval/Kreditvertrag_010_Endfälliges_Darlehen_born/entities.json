@@ -1,0 +1,20 @@
+{
+  "document": "Kreditvertrag_010_Endfälliges_Darlehen_born",
+  "vertragsnummer": "ED-2024-010123",
+  "darlehensnehmer": "Petra Braun",
+  "kreditgeber": "FINANZBANK AG",
+  "iban": "DE12500105170777888999",
+  "bic": "INGDDEFFXXX",
+  "darlehenssumme": 150000.0,
+  "sollzinssatz": 4.25,
+  "effektivzinssatz": 4.34,
+  "laufzeit": "12 Jahre (144 Monate)",
+  "vertragsbeginn": "2024-06-01",
+  "vertragsende": "2036-05-31",
+  "vertragsdatum": "2024-04-22",
+  "sicherheiten": [
+    "Grundschuld in Höhe von 185.000,00 EUR",
+    "b) Abtretung der Rechte aus der Risikolebensversicherung bei der Allianz Lebensversicherungs-AG, Versicherungsnummer: LV-2024-987654, Versicherungssumme: 175.000,00 EUR."
+  ],
+  "iban_valid": false
+}

@@ -1,0 +1,20 @@
+{
+  "document": "Kreditvertrag_005_Endfälliges_Darlehen",
+  "vertragsnummer": "ED-2024-005678",
+  "darlehensnehmer": "Michael Hoffmann",
+  "kreditgeber": "FINANZBANK AG",
+  "iban": "DE89370400440987654321",
+  "iban_valid": false,
+  "bic": "COBADEFFXXX",
+  "darlehenssumme": "180.000,00",
+  "sollzinssatz": "4.10",
+  "effektivzinssatz": "4.18",
+  "laufzeit": "10 Jahre (120 Monate)",
+  "vertragsbeginn": "2024-04-01",
+  "vertragsende": "2034-03-31",
+  "vertragsdatum": "2024-02-25",
+  "sicherheiten": [
+    "Grundschuld 220.000,00 EUR",
+    "Lebensversicherung 200.000,00 EUR"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "document": "Kreditvertrag_011_Ratenkredit",
+  "vertragsnummer": "RK-2024-011456",
+  "darlehensnehmer": "Oliver Weber",
+  "kreditgeber": "FINANZBANK AG",
+  "iban": "DE44500105170321654987",
+  "bic": "INGDDEFFXXX",
+  "darlehenssumme": 35000.0,
+  "sollzinssatz": 6.75,
+  "effektivzinssatz": 6.98,
+  "laufzeit": "6 Jahre (72 Monate)",
+  "vertragsbeginn": "2024-06-01",
+  "vertragsende": "2030-05-31",
+  "vertragsdatum": "2024-05-06",
+  "sicherheiten": [
+    "a) Abtretung der Rechte aus der Risikolebensversicherung bei der Allianz Lebensversicherungs-AG, Versicherungsnummer: LV-2024-987654, Versicherungssumme: 40.000,00 EUR."
+  ],
+  "iban_valid": false
+}

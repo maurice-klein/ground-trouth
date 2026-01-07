@@ -1,0 +1,17 @@
+{
+  "document": "Kreditvertrag_007_Ratenkredit_born",
+  "vertragsnummer": "RK-2024-007234",
+  "darlehensnehmer": "Stefan Klein",
+  "kreditgeber": "FINANZBANK AG",
+  "iban": "DE44500105170999888777",
+  "iban_valid": false,
+  "bic": "INGDDEFFXXX",
+  "darlehenssumme": "15.000,00",
+  "sollzinssatz": "8.50",
+  "effektivzinssatz": "8.84",
+  "laufzeit": "4 Jahre (48 Monate)",
+  "vertragsbeginn": "2024-04-01",
+  "vertragsende": "2028-03-31",
+  "vertragsdatum": "2024-03-18",
+  "sicherheiten": null
+}

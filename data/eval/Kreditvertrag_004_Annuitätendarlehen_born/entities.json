@@ -1,0 +1,21 @@
+{
+  "document": "Kreditvertrag_004_Annuitätendarlehen_born",
+  "vertragsnummer": "KV-2024-004512",
+  "darlehensnehmer": "Julia Wagner",
+  "kreditgeber": "FINANZBANK AG",
+  "iban": "DE21500700100012345678",
+  "bic": "DEUTDEFFXXX",
+  "darlehenssumme": 320000.0,
+  "sollzinssatz": 2.95,
+  "effektivzinssatz": 3.02,
+  "laufzeit": "30 Jahre (360 Monate)",
+  "vertragsbeginn": "2024-03-01",
+  "vertragsende": "2054-02-28",
+  "vertragsdatum": "2024-02-12",
+  "sicherheiten": [
+    "Grundschuld in Höhe von 380.000,00 EUR",
+    "b) Abtretung der Rechte aus der Risikolebensversicherung bei der Allianz Lebensversicherungs-AG, Versicherungsnummer: LV-2024-987654, Versicherungssumme: 350.000,00 EUR.",
+    "Selbstschuldnerische Bürgschaft bis zur Höhe von 100.000,00 EUR"
+  ],
+  "iban_valid": false
+}

@@ -1,0 +1,21 @@
+{
+  "document": "Kreditvertrag_009_Annuitätendarlehen",
+  "vertragsnummer": "KV-2024-009890",
+  "darlehensnehmer": "Robert Fischer",
+  "kreditgeber": "FINANZBANK AG",
+  "iban": "DE21500700100444555666",
+  "bic": "DEUTDEFFXXX",
+  "darlehenssumme": 420000.0,
+  "sollzinssatz": 2.85,
+  "effektivzinssatz": 2.91,
+  "laufzeit": "35 Jahre (420 Monate)",
+  "vertragsbeginn": null,
+  "vertragsende": "2059-04-30",
+  "vertragsdatum": "2024-04-15",
+  "sicherheiten": [
+    "Grundschuld in Höhe von 500.000,00 EUR",
+    "Selbstschuldnerische Bürgschaft in Höhe von 150.000,00 EUR",
+    "b) Abtretung der Rechte aus der Risikolebensversicherung bei der Allianz Lebensversicherungs-AG, Versicherungsnummer: LV-2024-987654, Versicherungssumme: 450.000,00 EUR."
+  ],
+  "iban_valid": false
+}

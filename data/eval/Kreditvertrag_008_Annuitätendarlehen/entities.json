@@ -1,0 +1,20 @@
+{
+  "document": "Kreditvertrag_008_Annuitätendarlehen",
+  "vertragsnummer": "KV-2024-008567",
+  "darlehensnehmer": "Christina Meyer",
+  "kreditgeber": "FINANZBAANK AG",
+  "iban": "DE89370400440111222333",
+  "bic": null,
+  "darlehenssumme": 275000.0,
+  "sollzinssatz": 3.4,
+  "effektivzinssatz": 3.47,
+  "laufzeit": "28 Jahre (336 Monate)",
+  "vertragsbeginn": "2024-05-01",
+  "vertragsende": "2052-04-30",
+  "vertragsdatum": "2024-04-02",
+  "sicherheiten": [
+    "Grundschuld in Höhe von 330.000,00 EUR",
+    "b) Abtretung der Rechte aus der Risikolebensversicherung bei der Allianz Lebensversicherungs-AG, Versicherungsnummer: LV-2024-987654, Versicherungssumme: 300.000,00 EUR."
+  ],
+  "iban_valid": false
+}

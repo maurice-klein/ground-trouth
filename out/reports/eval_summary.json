@@ -1,0 +1,24 @@
+{
+  "generated_at": "2026-01-07T22:10:29.898904",
+  "paths": {
+    "gt_root": "C:\\Users\\mauri\\Documents\\ground trouth\\data\\eval",
+    "pred_root": "C:\\Users\\mauri\\Documents\\ground trouth\\data\\processed"
+  },
+  "wer": {
+    "wer_micro": 0.14349514563106797,
+    "total_words": 5150,
+    "errors": 739
+  },
+  "fields": {
+    "precision": 0.8954248366013072,
+    "recall": 0.9256756756756757,
+    "f1": 0.9102990033222591,
+    "tp": 137,
+    "fp": 16,
+    "fn": 11
+  },
+  "tables": {
+    "strict_micro": 0.6758383490971626,
+    "best_micro": 0.9097162510748066
+  }
+}

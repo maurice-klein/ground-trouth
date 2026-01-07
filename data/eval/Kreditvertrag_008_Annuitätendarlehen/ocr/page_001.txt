@@ -1,0 +1,40 @@
+(2) Die Tilgung erfolgt in monatlichen Annuitätenraten. Die anfängliche Tilgung beträgt 2,05 % p.a.
+Die monatliche Rate beträgt:
+
+1.245,83 EUR
+
+Tilgungsplan (Auszug - erste 12 Monate)
+
+Monat  Datum      Tilgung (EUR)  Zinsen (EUR)  Restschuld (EUR)
+1      1.5.2024   466,66         779,17        274.533,34
+2      1.6.2024   467,99         777,84        274.065,35
+3      1.7.2024   469,31         776,52        273.596,04
+4      1.8.2024   470,64         775,19        273.125,40
+5      1.9.2024   471,97         773,86        272.653,42
+6      1.10.2024  473,31         772,52        272.180,11
+7      1.11.2024  474,65         771,18        271.705,46
+8      1.12.2024  476,00         769,83        271.229,46
+9      1.1.2025   477,35         768,48        270.752,11
+10     1.2.2025   478,70         767,13        270.273,42
+11     1.3.2025   480,06         765,77        269.793,36
+12     1.4.2025   481,42         764,41        269.311,94
+
+Hinweis: Der vollständige Plan wird separat zur Verfügung gestellt.
+
+§ 5 Sicherheiten
+
+Zur Absicherung des Darlehens werden folgende Sicherheiten bestellt:
+
+a) Grundschuld in Höhe von 330.000,00 EUR auf dem Grundstück Eschersheimer Landstraße 56, 60322 Frankfurt am Main, Grundbuch Blatt 12345, Flur 7, Flurstück 89/2.
+
+b) Abtretung der Rechte aus der Risikolebensversicherung bei der Allianz Lebensversicherungs-AG, Versicherungsnummer: LV-2024-987654, Versicherungssumme: 300.000,00 EUR.
+
+§ 6 Sondertilgung und Vorfälligkeitsentschädigung
+
+(1) Der Darlehensnehmer ist berechtigt, jährlich bis zu 5,00 % der ursprünglichen Darlehenssumme ohne Vorfälligkeitsentschädigung als Sondertilgung zu leisten.
+
+§ 7 Schlussbestimmungen
+
+(1) Änderungen und Ergänzungen dieses Vertrages bedürfen der Schriftform.
+(2) Sollten einzelne Bestimmungen dieses Vertrages unwirksam sein oder werden, so wird die Wirksamkeit der übrigen Bestimmungen hiervon nicht berührt.
+(3) Es gilt das Recht der Bundesrepublik Deutschland. Gerichtsstand ist Frankfurt am Main.

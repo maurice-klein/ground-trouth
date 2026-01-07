@@ -1,0 +1,20 @@
+{
+  "document": "Kreditvertrag_007_Ratenkredit_born",
+  "vertragsnummer": null,
+  "darlehensnehmer": "Stefan Klein",
+  "kreditgeber": "FINANZBANK AG",
+  "iban": "DE44500105170999888777",
+  "bic": "INGDDEFFXXX",
+  "darlehenssumme": 15000.0,
+  "sollzinssatz": 8.5,
+  "effektivzinssatz": 8.84,
+  "laufzeit": null,
+  "vertragsbeginn": "4 Jahre (48 Monate)",
+  "vertragsende": "2028-03-31",
+  "vertragsdatum": null,
+  "sicherheiten": [
+    "Keine zusätzlichen Sicherheiten erforderlich (Blankokredit)",
+    "18.03.2024"
+  ],
+  "iban_valid": false
+}

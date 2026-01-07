@@ -1,0 +1,20 @@
+{
+  "document": "Kreditvertrag_008_Annuitätendarlehen",
+  "vertragsnummer": "KV-2024-008567",
+  "darlehensnehmer": "Christina Meyer",
+  "kreditgeber": "FINANZBANK AG",
+  "iban": "DE89370400440111222333",
+  "iban_valid": false,
+  "bic": "COBADEFFXXX",
+  "darlehenssumme": "275.000,00",
+  "sollzinssatz": "3.40",
+  "effektivzinssatz": "3.47",
+  "laufzeit": "28 Jahre (336 Monate)",
+  "vertragsbeginn": "2024-05-01",
+  "vertragsende": "2052-04-30",
+  "vertragsdatum": "2024-04-02",
+  "sicherheiten": [
+    "Grundschuld 330.000,00 EUR",
+    "Lebensversicherung 300.000,00 EUR"
+  ]
+}

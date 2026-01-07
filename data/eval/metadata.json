@@ -1,11 +1,88 @@
 {
-  "export_date": "2026-01-05T13:06:33.320192",
+  "export_date": "2026-01-06T19:56:13.521372",
   "source_file": "data\\eval\\raw\\label_studio_export.json",
-  "total_documents": 1,
+  "total_documents": 12,
   "documents": [
     {
       "doc_id": "Kreditvertrag_001_Annuitätendarlehen_born",
       "entities_file": "Kreditvertrag_001_Annuitätendarlehen_born\\entities.json",
+      "entity_count": 15,
+      "has_iban": true,
+      "has_sicherheiten": true
+    },
+    {
+      "doc_id": "Kreditvertrag_002_Annuitätendarlehen_-_Kopie",
+      "entities_file": "Kreditvertrag_002_Annuitätendarlehen_-_Kopie\\entities.json",
+      "entity_count": 14,
+      "has_iban": true,
+      "has_sicherheiten": true
+    },
+    {
+      "doc_id": "Kreditvertrag_003_Ratenkredit",
+      "entities_file": "Kreditvertrag_003_Ratenkredit\\entities.json",
+      "entity_count": 13,
+      "has_iban": true,
+      "has_sicherheiten": true
+    },
+    {
+      "doc_id": "Kreditvertrag_004_Annuitätendarlehen_born",
+      "entities_file": "Kreditvertrag_004_Annuitätendarlehen_born\\entities.json",
+      "entity_count": 15,
+      "has_iban": true,
+      "has_sicherheiten": true
+    },
+    {
+      "doc_id": "Kreditvertrag_005_Endfälliges_Darlehen",
+      "entities_file": "Kreditvertrag_005_Endfälliges_Darlehen\\entities.json",
+      "entity_count": 14,
+      "has_iban": true,
+      "has_sicherheiten": true
+    },
+    {
+      "doc_id": "Kreditvertrag_006_Annuitätendarlehen",
+      "entities_file": "Kreditvertrag_006_Annuitätendarlehen\\entities.json",
+      "entity_count": 14,
+      "has_iban": true,
+      "has_sicherheiten": true
+    },
+    {
+      "doc_id": "Kreditvertrag_007_Ratenkredit_born",
+      "entities_file": "Kreditvertrag_007_Ratenkredit_born\\entities.json",
+      "entity_count": 11,
+      "has_iban": true,
+      "has_sicherheiten": true
+    },
+    {
+      "doc_id": "Kreditvertrag_008_Annuitätendarlehen",
+      "entities_file": "Kreditvertrag_008_Annuitätendarlehen\\entities.json",
+      "entity_count": 13,
+      "has_iban": true,
+      "has_sicherheiten": true
+    },
+    {
+      "doc_id": "Kreditvertrag_009_Annuitätendarlehen",
+      "entities_file": "Kreditvertrag_009_Annuitätendarlehen\\entities.json",
+      "entity_count": 14,
+      "has_iban": true,
+      "has_sicherheiten": true
+    },
+    {
+      "doc_id": "Kreditvertrag_010_Endfälliges_Darlehen_born",
+      "entities_file": "Kreditvertrag_010_Endfälliges_Darlehen_born\\entities.json",
+      "entity_count": 14,
+      "has_iban": true,
+      "has_sicherheiten": true
+    },
+    {
+      "doc_id": "Kreditvertrag_011_Ratenkredit",
+      "entities_file": "Kreditvertrag_011_Ratenkredit\\entities.json",
+      "entity_count": 13,
+      "has_iban": true,
+      "has_sicherheiten": true
+    },
+    {
+      "doc_id": "Kreditvertrag_012_Annuitätendarlehen",
+      "entities_file": "Kreditvertrag_012_Annuitätendarlehen\\entities.json",
       "entity_count": 15,
       "has_iban": true,
       "has_sicherheiten": true
