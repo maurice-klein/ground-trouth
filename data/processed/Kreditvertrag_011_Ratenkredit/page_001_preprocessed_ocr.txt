@@ -1,4 +1,4 @@
-(2) Die Tiigung erfoigt in gieichbieibenden monatlichen Tilgungsraten. Die Zinsbelastung sinkt
+(2) Die Tilgung erfoigt in gieichbleibenden monatlichen Tilgungsraten. Die Zinsbelastung sinkt
 mit abnehmender Restschuld, sodass die Gesamtrate monatlich abnimmt. Die erste
 monatliche Rate beträgt:
 682,99 EUR (erste Rate, danach sinkend)
@@ -82,17 +82,17 @@ Restschuld (EUR)
 652,91
 29.166,67
 Hinweis: Der vollständige Plan wird separat zur Verfügung gestellt.
-S 5 Sicherheiten
+S5 Sicherheiten
 Zur Absicherung des Darlehens werden folgende Sicherheiten bestellt:
 a) Abtretung der Rechte aus der Risikolebensversicherung bei der Allianz
 Lebensversicherungs-AG, Versicherungsnummer: LV-2024-987654, Versicherungssumme:
 40.000,00 EUR.
-S 6 Sondertilgung und Vorfälligkeitsentschádigung
-Darlehenssumme ohne Vorfalligkeitsentschädigung als Sondertilgung zu leisten.
+$ 6 Sondertilgung und Vorfälligkeitsentschädigung
+(1) Der Darlehensnehmer ist berechtigt, jahrlich bis zu 5,00 % der ursprünglichen
+Dariehenssumme ohne Vorfälligkeitsentschädigung als Sondertilgung zu leisten.
 $ 7 Schlussbestimmungen
 (1) Anderungen und Ergänzungen dieses Vertrages bedürfen der Schriftform. (2) Sollten
 einzelne Bestimmungen dieses Vertrages unwirksam sein oder werden, so wird die
-Wirksamkeit der übrigen Bestimmungen hiervon nicht berührt. (3) Es gilt das Recht der
 Bundesrepublik Deutschland. Gerichtsstand ist Frankfurt am Main.
 Frankfurt am Main, den 06.05.2024
 Darlehensgeber

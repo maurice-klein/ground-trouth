@@ -5,26 +5,27 @@ Annuitätendarlehen
 Vertragsnummer: KV-2024-008567
 $ 1 Vertragsparteien
 Zwischen der
-FiNANZBANK AG HauptstraBe 123 60311 Frankfurt am Main Registergericht: Amtsgericht
-Frankfurt, HRB 98765 IBAN: DE89370400440532013000 BIC: COBADEFFXXX
-- nachfolgend Darlehensgeber genannt -
+FINANZBANK AG Hauptstraße 123 60311 Frankfurt am Main Registergericht:Amtsgericht
+Frankfurt,HRB 98765 IBANDE89370400440532013000 BIC:COBADEFFXXX
+- nachfolgend Darlehensgeber genannt
 und
 Christina Meyer Eschersheimer Landstraße 56 60322 Frankfurt am Main Geboren am:
 27.02.1984
 - nachfolgend Darlehensnehmer genannt -
 wird folgender Darlehensvertrag geschlossen:
 $ 2 Darlehensbetrag und Auszahlung
+(1) Der Darlehensgeber gewährt dem Darlehensnehmer ein Darlehen in Höhe von
 275.000,00 EUR
 (2) Die Auszahlung erfolgt nach Vorlage aller erforderlichen Unterlagen und Sicherheiten auf
 das folgende Konto des Darlehensnehmers:
-IBAN: DE89370400440111222333 BIC: COBADEFFXXX Kontoinhaber: Christina Meyer
+IBAN:DE89370400440111222333 BIC:COBADEFFXXX Kontoinhaber:Christina Meyer
 $ 3 Zinssatz und Kosten
-3,40 % p.a. (gebunden bis 30.04.2052)
 Sollzinssatz:
+3,40 % p.a. (gebunden bis 30.04.2052)
 Effektivzinssatz:
 3,47 % p.a.
-Bearbeitungsgebühr
-0,00 EUR (entfallt)
+Bearbeitungsgebü
+0,00 EUR(entfällt)
 hr:
 (2) Die Zinsen werden taggenau nach der 30/360-Methode berechnet und sind monatlich
 nachträglich zum Monatsletzten fällig.

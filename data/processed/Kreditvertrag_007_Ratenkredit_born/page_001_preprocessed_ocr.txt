@@ -5,9 +5,9 @@ monatliche Rate beträgt:
 Tilgungsplan (Auszug - erste 24 Monate)
 Monat
 Datum
-Tilgung(EUR) Zinsen(EUR)
-Rate(EUR)
-Restschuld(EUR)
+Tilgung (EURZinsen (EUR)
+Rate (EUR)
+Restschuld (EUR)
 1
 1.4.2024
 312,50
@@ -56,7 +56,7 @@ Restschuld(EUR)
 90,76
 403,26
 12.500,00
-9
+6
 1.12.2024
 312,50
 88,54
@@ -153,6 +153,6 @@ Restschuld(EUR)
 367,84
 7.500,00
 Hinweis: Der vollständige Plan wird separat zur Verfügung gestellt.
-S 5 Sicherheiten
+$ 5 Sicherheiten
 Zur Absicherung des Darlehens werden folgende Sicherheiten bestellt:
 Keine zusatzlichen Sicherheiten erforderlich (Blankokredit).

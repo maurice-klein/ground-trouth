@@ -4,9 +4,9 @@ gezahlt. Die monatliche Zinsrate beträgt:
 Zinsplan (Auszug - erste 24 Monate)
 Monat
 Datum
-Tilgung(EUR)
-Zinsen(EUR)
-Restschuld(EUR)
+Tilgung (EUR)
+Zinsen (EUR)
+Restschuld (EUR)
 1
 1.6.2024
 0,00
@@ -127,8 +127,7 @@ Restschuld(EUR)
 0,00
 531,25
 150.000,00
-Hinweis: Der vollständige Plan wird separat zur Verfügung gestellt.
 S 5 Sicherheiten
 Zur Absicherung des Darlehens werden folgende Sicherheiten bestellt:
-a) Grundschuld in H8he von 185.000,00 EUR auf dem Grundstück Savignystraße 67, 60325
+a) Grundschuld in Höhe von 185.000,00 EUR auf dem Grundstück Savignystraße 67, 60325
 Frankfurt am Main, Grundbuch Blatt 12345, Flur 7, Flurstück 89/2

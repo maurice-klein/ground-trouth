@@ -22,11 +22,10 @@ Sollzinssatz:
 8,50 % p.a. (gebunden bis 31.03.2028)
 Effektivzinssatz:
 8,84 % p.a.
-Bearbeitungsgebühr
+Bearbeitungsgebu
 0,00 EUR (entfällt)
 hr:
-(2) Die Zinsen werden taggenau nach der 30/360-Methode berechnet und sind monatlich
-nachträglich zum Monatsletzten fällig
+nachträglich zum Monatsletzten fällig.
 $ 4 Laufzeit und Tilgung
 (1) Die Laufzeit des Darlehens beträgt
 4 Jahre (48 Monate)

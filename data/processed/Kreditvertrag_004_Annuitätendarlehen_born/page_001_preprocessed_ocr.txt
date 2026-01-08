@@ -1,12 +1,12 @@
-(2) Die Tilgung erfolgt in monatlichen Annuitatenraten. Die anfangliche Tilgung beträgt 2,8o %
+(2) Die Tilgung erfolgt in monatlichen Annuitätenraten. Die anfängliche Tilgung beträgt 2,8o %
 p.a. Die monatliche Rate beträgt:
 1.561,67 EUR
 Tilgungsplan (Auszug - erste 24 Monate)
 Monat
 Datum
-Tilgung(EUR)
-Zinsen(EUR)
-Restschuld(EUR)
+Tilgung (EUR)
+Zinsen (EUR)
+Restschuld (EUR)
 1
 1.3.2024
 775,00
@@ -127,8 +127,7 @@ Restschuld(EUR)
 820,03
 741,64
 300.864,48
-Hinweis: Der vollständige Plan wird separat zur Verfügung gestellt.
 S 5 Sicherheiten
 Zur Absicherung des Darlehens werden folgende Sicherheiten bestellt:
-a) Grundschuld in Höhe von 380.000,00 EUR auf dem Grundstück Goethestraße 34, 60311
-Frankfurt am Main, Grundbuch Blatt 12345, Flur 7, Flurstück 89/2.
+a) Grundschuld in H8he von 380.000,00 EUR auf dem Grundstück Goethestraße 34, 60311
+Frankfurt am Main, Grundbuch Blatt 12345, Flur 7, Flurstuck 89/2

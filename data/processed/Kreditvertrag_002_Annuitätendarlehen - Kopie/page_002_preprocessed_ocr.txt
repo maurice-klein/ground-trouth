@@ -1,11 +1,8 @@
-b) Abtretung der Rechte aus der Risikolebensversicherung bei der Allianz
-Lebensversicherungs-AG, Versicherungsnummer: LV-2024-987654, Versicherungssumme:
 300.000,00 EUR.
 $ 6 Sondertilgung und Vorfälligkeitsentschädigung
-(1) Der Darlehensnehmer ist berechtigt, jährlich bis zu 5,00 % der ursprünglichen
+(1) Der Darlehensnehmer ist berechtigt, jahrlich bis zu 5,00 % der ursprünglichen
 Dariehenssumme ohne Vorfälligkeitsentschädigung als Sondertilgung zu leisten.
-$ 7 Schlussbestimmungen
-(1) Anderungen und Ergänzungen dieses Vertrages bedürfen der Schriftform. (2) Sollten
+S 7 Schlussbestimmungen
 einzelne Bestimmungen dieses Vertrages unwirksam sein oder werden, so wird die
 Wirksamkeit der übrigen Bestimmungen hiervon nicht berührt. (3) Es gilt das Recht der
 Bundesrepublik Deutschiand. Gerichtsstand ist Frankfurt am Main.
@@ -13,5 +10,5 @@ Frankfurt am Main, den 20.01.2024
 Darlehensgeber
 Darlehensnehmer
 FINANZBANK AG
-Aufsichtsratsvorsitzender: Prof. Dr. Martin Weber Registergericht: Amtsgericht Frankfurt am Main, HRB 98765 BaFin-
+FINANZBANK AG Hauptstraße 123{ 60311 Frankfurt am Main Vorstand: Dr.Andreas Becker,Petra Schmidt ]
 Zulassung: 123.456.789

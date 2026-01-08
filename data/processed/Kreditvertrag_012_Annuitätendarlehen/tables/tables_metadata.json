@@ -18,7 +18,7 @@
         {
           "index": 0,
           "csv_file": "table_page_001_preprocessed_0.csv",
-          "rows": 22,
+          "rows": 24,
           "cols": 5,
           "confidence": 1.1800000000000002,
           "hybrid_mode": true,

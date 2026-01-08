@@ -1,12 +1,12 @@
-(2) Die Tilgung erfolgt in monatlichen Annuitätenraten. Die anfängliche Tilgung beträgt 2,20 %
+(2) Die Tilgung erfolgt in monatlichen Annuitätenraten. Die anfängliche Tilgung beträgt 2,2o %
 p.a. Die monatliche Rate beträgt:
 1.785,00 EUR
 Tilgungsplan (Auszug - erste 24 Monate)
 Monat
 Datum
-TIgung(EUR)
-Zinsen(EUR)
-Restschuld(EUR)
+Tilgung (EUR)
+Zinsen (EUR)
+Restschuld (EUR)
 1
 1.5.2024
 787,50
@@ -127,4 +127,3 @@ Restschuld(EUR)
 831,66
 953,34
 400.574,69
-Hinweis: Der vollständige Plan wird separat zur Verfügung gestellt.

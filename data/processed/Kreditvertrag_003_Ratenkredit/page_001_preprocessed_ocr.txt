@@ -5,7 +5,7 @@ monatliche Rate beträgt:
 Tilgungsplan (Auszug - erste 12 Monate)
 Monat
 Datum
-Tilgung (EUR)
+Tilgung (EUR2
 Zinsen (EUR)
 Rate (EUR)
 Restschuld (EUR)
@@ -57,7 +57,7 @@ Restschuld (EUR)
 108,58
 525,24
 21.666,67
-9
+6
 1.11.2024
 416,67
 106,53
@@ -81,14 +81,13 @@ Restschuld (EUR)
 100,38
 517,05
 20.000,00
-$ 5 Sicherheiten
+S 5 Sicherheiten
 Zur Absicherung des Darlehens werden folgende Sicherheiten bestellt:
 Keine zusätzlichen Sicherheiten erforderlich (Blankokredit)
 $ 6 Sondertilgung und Vorfälligkeitsentschädigung
-(1) Der Darlehensnehmer ist berechtigt, jährlich bis zu 5,0o % der ursprünglichen
 Darlehenssumme ohne Vorfälligkeitsentschädigung als Sondertilgung zu leisten.
 $ 7 Schlussbestimmungen
-(1) Anderungen und Ergänzungen dieses Vertrages bedürfen der Schriftform. (2) Sollten
+(1) Anderungen und Erganzungen dieses Vertrages bedürfen der Schriftform. (2) Sollten
 einzelne Bestimmungen dieses Vertrages unwirksam sein oder werden, so wird die
 Wirksamkeit der übrigen Bestimmungen hiervon nicht berührt. (3) Es gilt das Recht der
 Bundesrepublik Deutschland. Gerichtsstand ist Frankfurt am Main.

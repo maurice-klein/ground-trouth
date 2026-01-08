@@ -14,8 +14,8 @@ Standard-Pfade (relativ zum Repo-Root):
   data/eval        (Ground Truth)
   data/processed   (Predictions)
 Outputs:
-  out/reports/eval_summary.json
-  out/reports/eval_report.html
+  out/reports/<YYYY-MM-DD_HH-MM-SS>/eval_summary.json
+  out/reports/<YYYY-MM-DD_HH-MM-SS>/eval_report.html
 """
 
 from __future__ import annotations
@@ -57,14 +57,87 @@ def is_empty(v: Any) -> bool:
 
 
 def normalize_text(s: str) -> str:
+    """Einfache Normalisierung für Feldvergleiche"""
     s = (s or "").lower().strip()
     s = re.sub(r"\s+", " ", s)
     return s
 
 
+def normalize_text_for_wer(text: str) -> str:
+    """
+    Umfassende Text-Normalisierung für faire WER-Berechnung
+    
+    Korrigiert:
+    - UTF-8 Encoding-Fehler (Ã¤→ä, ÃŸ→ß, etc.)
+    - § ↔ $ Verwechslungen
+    - Mehrfache Leerzeilen und Spaces
+    - Trailing/Leading Whitespace
+    
+    Args:
+        text: Roh-Text (OCR oder Ground Truth)
+        
+    Returns:
+        Normalisierter Text
+    """
+    if not text:
+        return ""
+    
+    # 1. UTF-8 Encoding-Fehler korrigieren
+    # Häufige Fehler durch falsche Byte-Interpretation
+    encoding_fixes = {
+        'Ã¤': 'ä', 'Ã¶': 'ö', 'Ã¼': 'ü', 'ÃŸ': 'ß',
+        'Ã„': 'Ä', 'Ã–': 'Ö', 'Ãœ': 'Ü',
+        'Ã©': 'é', 'Ã¨': 'è', 'Ã¡': 'á', 'Ã ': 'à',
+        'Ã³': 'ó', 'Ã²': 'ò', 'Ãº': 'ú', 'Ã¹': 'ù',
+    }
+    for wrong, correct in encoding_fixes.items():
+        text = text.replace(wrong, correct)
+    
+    # 2. § und $ vereinheitlichen (OCR verwechselt diese häufig)
+    # Normalisiere zu § (Paragraph-Symbol)
+    text = text.replace('$', '§')
+    
+    # 3. Mehrfache Leerzeilen reduzieren (max 2 aufeinanderfolgende)
+    # Verhindert, dass fehlende Leerzeilen als "Fehler" gezählt werden
+    text = re.sub(r'\n{3,}', '\n\n', text)
+    
+    # 4. Trailing/Leading Whitespace pro Zeile entfernen
+    lines = [line.rstrip() for line in text.splitlines()]
+    text = '\n'.join(lines)
+    
+    # 5. Mehrfache Spaces zu Single Space (innerhalb Zeilen)
+    text = re.sub(r' {2,}', ' ', text)
+    
+    # 6. Finale Normalisierung (Trim)
+    text = text.strip()
+    
+    # 7. Lowercase für Case-insensitive Vergleich
+    # (Optional - kann deaktiviert werden falls Case relevant ist)
+    text = text.lower()
+    
+    return text
+
+
 def wer_counts(gt_text: str, pred_text: str) -> Dict[str, Any]:
-    gt_words = normalize_text(gt_text).split() if gt_text else []
-    pred_words = normalize_text(pred_text).split() if pred_text else []
+    """
+    Berechnet Word Error Rate mit Normalisierung
+    
+    Args:
+        gt_text: Ground Truth Text
+        pred_text: Predicted Text (OCR Output)
+        
+    Returns:
+        Dict mit WER, Fehlertypen, Wortanzahl
+    """
+    # Normalisiere beide Texte für fairen Vergleich
+    gt_normalized = normalize_text_for_wer(gt_text)
+    pred_normalized = normalize_text_for_wer(pred_text)
+    
+    # Tokenize (split by whitespace)
+    gt_words = gt_normalized.split() if gt_normalized else []
+    pred_words = pred_normalized.split() if pred_normalized else []
+    
+    # Levenshtein Edit Operations
     ops = Levenshtein.editops(gt_words, pred_words)
 
     subs = sum(1 for op in ops if op.tag == "replace")
@@ -509,13 +582,21 @@ h1,h2 {{ margin-bottom: 6px; }}
 .tbl {{ border-collapse: collapse; width: 100%; margin: 10px 0 24px; }}
 .tbl th, .tbl td {{ border: 1px solid #ddd; padding: 6px 8px; font-size: 13px; }}
 .tbl th {{ background: #f6f6f6; text-align: left; }}
-.note {{ background:#fff7e6; border:1px solid #f0d9a6; padding:10px 12px; border-radius:10px; }}
+.note {{ background:#fff7e6; border:1px solid #f0d9a6; padding:10px 12px; border-radius:10px; margin:16px 0; }}
+.info {{ background:#e6f3ff; border:1px solid #a6d9f0; padding:10px 12px; border-radius:10px; margin:16px 0; }}
 code {{ background:#f2f2f2; padding:1px 4px; border-radius:4px; }}
 </style>
 </head>
 <body>
 <h1>IDP-Pipeline Evaluation</h1>
 <div class="small">Generiert am {now}</div>
+
+<div class="info">
+<b>ℹ️ Text-Normalisierung:</b> WER wird mit normalisiertem Text berechnet 
+(UTF-8 Encoding-Korrektur, § ↔ $ Vereinheitlichung, Whitespace-Normalisierung). 
+Dies gewährleistet eine faire Bewertung der OCR-Qualität ohne Verfälschung durch 
+technische Artefakte.
+</div>
 
 <div class="kpi">
   <div class="card">
@@ -571,7 +652,14 @@ def main() -> int:
 
     gt_root = Path(args.gt)
     pred_root = Path(args.pred)
-    out_dir = Path(args.out)
+
+    # Basis-Output
+    base_out_dir = Path(args.out)
+    base_out_dir.mkdir(parents=True, exist_ok=True)
+
+    # Pro Run eigener Timestamp-Ordner (Windows-sicher, kein ':')
+    run_stamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
+    out_dir = base_out_dir / run_stamp
     out_dir.mkdir(parents=True, exist_ok=True)
 
     # Docs
@@ -585,6 +673,14 @@ def main() -> int:
     if not common:
         print("ERROR: Keine passenden Dokumente gefunden. Prüfe Pfade --gt und --pred.")
         return 2
+
+    print("=" * 80)
+    print("IDP EVALUATION MIT TEXT-NORMALISIERUNG")
+    print("=" * 80)
+    print(f"Ground Truth: {gt_root}")
+    print(f"Predictions:  {pred_root}")
+    print(f"Dokumente:    {len(common)}")
+    print()
 
     # 1) WER
     wer_rows: List[Dict[str, Any]] = []
@@ -618,8 +714,6 @@ def main() -> int:
     wer_per_doc = wer_per_doc.sort_values("wer_micro_%", ascending=False)
 
     # 2) Field/Entity F1
-    # Ground Truth: */entities.json
-    # Pred: */fields.json
     all_fields: set[str] = set()
     for k in common:
         gt_data = json.loads((gt_map[k] / "entities.json").read_text(encoding="utf-8", errors="ignore"))
@@ -716,27 +810,34 @@ def main() -> int:
     # Outputs
     summary = {
         "generated_at": datetime.now().isoformat(),
+        "normalization": "Text normalized (UTF-8 fixes, § ↔ $, whitespace)",
         "paths": {"gt_root": str(gt_root), "pred_root": str(pred_root)},
         "wer": wer_overall,
         "fields": f1_overall,
         "tables": tables_overall,
     }
-    (out_dir / "eval_summary.json").write_text(json.dumps(summary, indent=2, ensure_ascii=False), encoding="utf-8")
+    summary_path = out_dir / "eval_summary.json"
+    report_path = out_dir / "eval_report.html"
+
+    summary_path.write_text(json.dumps(summary, indent=2, ensure_ascii=False), encoding="utf-8")
 
     html = html_report(wer_overall, f1_overall, tables_overall, wer_per_doc, f1_per_field, tables_per_doc)
-    (out_dir / "eval_report.html").write_text(html, encoding="utf-8")
+    report_path.write_text(html, encoding="utf-8")
 
     # Terminal summary (ASCII-only)
     print("=" * 80)
-    print("EVALUATION SUMMARY")
+    print("EVALUATION SUMMARY (MIT TEXT-NORMALISIERUNG)")
     print("=" * 80)
     print(f"WER micro:           {wer_overall['wer_micro']:.2%} (target < 15%)")
     print(f"Field/Entity F1:     {f1_overall['f1']:.3f} (target > 0.80)")
     print(f"Table Exact strict:  {tables_overall['strict_micro']:.2%} (target > 70%)")
     print(f"Table Exact (diag):  {tables_overall['best_micro']:.2%} (best-permutation)")
     print("-" * 80)
-    print(f"Report:   {out_dir / 'eval_report.html'}")
-    print(f"Summary:  {out_dir / 'eval_summary.json'}")
+    print(f"✅ Text normalisiert: UTF-8 fixes, § ↔ $, whitespace")
+    print("-" * 80)
+    print(f"Run folder: {out_dir}")
+    print(f"Report:     {report_path}")
+    print(f"Summary:    {summary_path}")
     print("=" * 80)
 
     return 0

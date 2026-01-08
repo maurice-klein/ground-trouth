@@ -1,13 +1,13 @@
-beginnend mit dem Auszahlungsdatum am 01.06.2024 und endend am 31.05.2056.
+beginnend mit dem Auszahlungsdatum am 01.06.2024 und endend am 31.05.2056
 (2) Die Tilgung erfolgt in monatlichen Annuitätenraten. Die anfängliche Tilgung beträgt 2,10 %
 p.a. Die monatliche Rate beträgt:
 1.663,33 EUR
 Tilgungsplan (Auszug - erste 24 Monate)
 Monat
 Datum
-Tigung(EUR)
-Zinsen(EUR)
-Restschuld(EUR))
+Tilgung (EUR)
+Zinsen (EUR)
+Restschuld (EUR)
 1
 1.6.2024
 665,83
@@ -51,7 +51,7 @@ Restschuld(EUR))
 9
 1.2.2025
 679,94
-983,39 1
+983,39
 373.944,22
 10
 1.3.2025
@@ -76,7 +76,7 @@ Restschuld(EUR))
 14
 1.7.2025
 688,91
-974,42]
+974,42
 370.517,65
 15
 1.8.2025
@@ -86,7 +86,7 @@ Restschuld(EUR))
 16
 1.9.2025
 692,53
-970,80 1
+970,80
 369.134,39
 17
 1.10.2025
@@ -100,8 +100,8 @@ Restschuld(EUR))
 367.743,87
 19
 1.12.2025
-698,00 l
-965,33 ]
+698,00
+965,33
 367.045,86
 20
 1.1.2026
@@ -124,10 +124,12 @@ Restschuld(EUR))
 957,97
 364.235,48
 24
+1.5.2026
 707,21
 956,12
 363.528,27
-1.5.2026
 Hinweis: Der vollstandige Plan wird separat zur Verfügung gestellt.
 $ 5 Sicherheiten
+Zur Absicherung des Darlehens werden folgende Sicherheiten bestellt:
 a) Grundschuld in Höhe von 450.000,00 EUR auf dem Grundstück Berger StraBe 199,
+60385 Frankfurt am Main, Grundbuch Blatt 12345, Flur 7, Flurstück 89/2

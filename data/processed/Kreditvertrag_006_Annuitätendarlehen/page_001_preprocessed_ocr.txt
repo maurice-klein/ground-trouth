@@ -1,12 +1,12 @@
-(2) Die Tilgung erfolgt in monatlichen Annuitátenraten. Die anfángliche Tilgung beträgt 2,15 %
+(2) Die Tilgung erfolgt in monatlichen Annuitätenraten. Die anfängliche Tilgung beträgt 2,15 %
 p.a. Die monatliche Rate beträgt:
 954,17 EUR
 Tilgungsplan (Auszug - erste 24 Monate)
 Monat
 Datum
-Tilgung(EUR)
+Tilgung (EUR)
 Zinsen(EUR)
-Restschuld(EUR)
+Restschuld (EUR)
 1
 1.5.2024
 344,79
@@ -32,7 +32,6 @@ Restschuld(EUR)
 349,13
 605,04
 193.265,22
-6
 1.10.2024
 350,22
 603,95
@@ -49,9 +48,9 @@ Restschuld(EUR)
 192.211,28
 9
 1.1.2025
-191.857,77
 353,51
 600,66
+191.857,77
 10
 1.2.2025
 354,61
@@ -110,8 +109,8 @@ Restschuld(EUR)
 21
 1.1.2026
 367,00
-187.528,49
 587,17
+187.528,49
 22
 1.2.2026
 368,14
@@ -124,11 +123,11 @@ Restschuld(EUR)
 186.791,05
 24
 1.4.2026
-370,45 j
+370,45
 583,72
 186.420,61
 Hinweis: Der vollständige Plan wird separat zur Verfügung gestellt.
 $ 5 Sicherheiten
-Zur Absicherung des Darlehens werden folgende Sicherheiten bestellt:
-a) Grundschuid in Höhe von 240.000,00 EUR auf dem Grundstück Bockenheimer
-Landstraße 45, 60325 Frankfurt am Main, Grundbuch Blatt 12345, Flur 7, Flurstück 89/2
+Zur Absicherung des Dariehens werden folgende Sicherheiten bestellt:
+a) Grundschuld in Höhe von 240.000,00 EUR auf dem Grundstück Bockenheimer
+Landstraße 45, 60325 Frankfurt am Main, Grundbuch Blatt 12345, Flur 7, Flurstück 89/2.

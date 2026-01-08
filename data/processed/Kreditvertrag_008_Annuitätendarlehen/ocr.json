@@ -5,13 +5,15 @@
   "preprocessed": true,
   "artifact_filter": true,
   "horizontal_sort": true,
+  "drop_score": 0.0,
+  "convert_to_rgb": false,
   "total_removed_artifacts": 0,
   "pages": [
     {
       "page": 0,
       "image_file": "page_000_preprocessed.png",
-      "total_lines": 34,
-      "avg_confidence": 0.9901166049873128,
+      "total_lines": 35,
+      "avg_confidence": 0.9769909943853106,
       "low_confidence_count": 0,
       "removed_artifacts": 0,
       "lines": [
@@ -19,12 +21,12 @@
           "id": 1,
           "text": "FINANZBANK AG",
           "bbox": [
-            1317,
-            477,
+            1322,
+            482,
             2155,
-            572
+            567
           ],
-          "confidence": 0.999314546585083
+          "confidence": 0.971352219581604
         },
         {
           "id": 2,
@@ -32,43 +34,43 @@
           "bbox": [
             1252,
             612,
-            2230,
+            2225,
             688
           ],
-          "confidence": 0.9960920810699463
+          "confidence": 0.9713882803916931
         },
         {
           "id": 3,
           "text": "DARLEHENSVERTRAG",
           "bbox": [
             1242,
-            752,
+            753,
             2235,
             843
           ],
-          "confidence": 0.9996618032455444
+          "confidence": 0.9975301623344421
         },
         {
           "id": 4,
           "text": "Annuitätendarlehen",
           "bbox": [
-            1447,
-            923,
-            2035,
+            1441,
+            918,
+            2036,
             994
           ],
-          "confidence": 0.9730091094970703
+          "confidence": 0.9735879898071289
         },
         {
           "id": 5,
           "text": "Vertragsnummer: KV-2024-008567",
           "bbox": [
             2000,
-            1084,
+            1079,
             2998,
             1160
           ],
-          "confidence": 0.9992072582244873
+          "confidence": 0.9989662170410156
         },
         {
           "id": 6,
@@ -76,10 +78,10 @@
           "bbox": [
             479,
             1239,
-            1247,
+            1242,
             1330
           ],
-          "confidence": 0.9886164665222168
+          "confidence": 0.9748425483703613
         },
         {
           "id": 7,
@@ -90,51 +92,51 @@
             858,
             1425
           ],
-          "confidence": 0.999708354473114
+          "confidence": 0.9591550230979919
         },
         {
           "id": 8,
-          "text": "FiNANZBANK AG HauptstraBe 123 60311 Frankfurt am Main Registergericht: Amtsgericht",
+          "text": "FINANZBANK AG Hauptstraße 123 60311 Frankfurt am Main Registergericht:Amtsgericht",
           "bbox": [
             489,
             1445,
             2963,
             1536
           ],
-          "confidence": 0.9924447536468506
+          "confidence": 0.9712550640106201
         },
         {
           "id": 9,
-          "text": "Frankfurt, HRB 98765 IBAN: DE89370400440532013000 BIC: COBADEFFXXX",
+          "text": "Frankfurt,HRB 98765 IBANDE89370400440532013000 BIC:COBADEFFXXX",
           "bbox": [
             489,
-            1521,
-            2679,
+            1520,
+            2674,
             1606
           ],
-          "confidence": 0.9884517788887024
+          "confidence": 0.9776424765586853
         },
         {
           "id": 10,
-          "text": "- nachfolgend Darlehensgeber genannt -",
+          "text": "- nachfolgend Darlehensgeber genannt ",
           "bbox": [
-            494,
+            489,
             1636,
-            1621,
+            1616,
             1712
           ],
-          "confidence": 0.9828224182128906
+          "confidence": 0.9715864658355713
         },
         {
           "id": 11,
           "text": "und",
           "bbox": [
-            489,
-            1777,
-            614,
-            1852
+            494,
+            1787,
+            609,
+            1847
           ],
-          "confidence": 0.9984946846961975
+          "confidence": 0.9902958869934082
         },
         {
           "id": 12,
@@ -145,7 +147,7 @@
             2864,
             1947
           ],
-          "confidence": 0.9951531291007996
+          "confidence": 0.9842063784599304
         },
         {
           "id": 13,
@@ -156,43 +158,54 @@
             808,
             2018
           ],
-          "confidence": 0.9999314546585083
+          "confidence": 0.9982355237007141
         },
         {
           "id": 14,
           "text": "- nachfolgend Darlehensnehmer genannt -",
           "bbox": [
-            494,
-            2047,
-            1681,
-            2123
+            489,
+            2042,
+            1686,
+            2128
           ],
-          "confidence": 0.9863067865371704
+          "confidence": 0.9931639432907104
         },
         {
           "id": 15,
           "text": "wird folgender Darlehensvertrag geschlossen:",
           "bbox": [
-            494,
-            2193,
+            489,
+            2183,
             1746,
-            2263
+            2264
           ],
-          "confidence": 0.9977735280990601
+          "confidence": 0.9684076309204102
         },
         {
           "id": 16,
           "text": "$ 2 Darlehensbetrag und Auszahlung",
           "bbox": [
-            499,
-            2364,
+            494,
+            2359,
             1871,
             2449
           ],
-          "confidence": 0.9893597960472107
+          "confidence": 0.9711000919342041
         },
         {
           "id": 17,
+          "text": "(1) Der Darlehensgeber gewährt dem Darlehensnehmer ein Darlehen in Höhe von",
+          "bbox": [
+            499,
+            2459,
+            2729,
+            2565
+          ],
+          "confidence": 0.9750094413757324
+        },
+        {
+          "id": 18,
           "text": "275.000,00 EUR",
           "bbox": [
             1472,
@@ -200,10 +213,10 @@
             2045,
             2660
           ],
-          "confidence": 0.9696545600891113
+          "confidence": 0.953833281993866
         },
         {
-          "id": 18,
+          "id": 19,
           "text": "(2) Die Auszahlung erfolgt nach Vorlage aller erforderlichen Unterlagen und Sicherheiten auf",
           "bbox": [
             499,
@@ -211,10 +224,10 @@
             3023,
             2791
           ],
-          "confidence": 0.9913725852966309
+          "confidence": 0.9825096130371094
         },
         {
-          "id": 19,
+          "id": 20,
           "text": "das folgende Konto des Darlehensnehmers:",
           "bbox": [
             499,
@@ -222,21 +235,21 @@
             1701,
             2851
           ],
-          "confidence": 0.9991820454597473
-        },
-        {
-          "id": 20,
-          "text": "IBAN: DE89370400440111222333 BIC: COBADEFFXXX Kontoinhaber: Christina Meyer",
-          "bbox": [
-            494,
-            2866,
-            2914,
-            2951
-          ],
-          "confidence": 0.9959869384765625
+          "confidence": 0.9916982650756836
         },
         {
           "id": 21,
+          "text": "IBAN:DE89370400440111222333 BIC:COBADEFFXXX Kontoinhaber:Christina Meyer",
+          "bbox": [
+            494,
+            2866,
+            2919,
+            2951
+          ],
+          "confidence": 0.9751349687576294
+        },
+        {
+          "id": 22,
           "text": "$ 3 Zinssatz und Kosten",
           "bbox": [
             509,
@@ -244,32 +257,32 @@
             1402,
             3137
           ],
-          "confidence": 0.9908788800239563
+          "confidence": 0.9662498831748962
         },
         {
-          "id": 22,
-          "text": "3,40 % p.a. (gebunden bis 30.04.2052)",
-          "bbox": [
-            1187,
-            3187,
-            2270,
-            3277
-          ],
-          "confidence": 0.9922051429748535
-        },
-        {
-          "id": 23,
+          "id": 24,
           "text": "Sollzinssatz:",
           "bbox": [
             738,
             3212,
-            1122,
-            3272
+            1112,
+            3267
           ],
-          "confidence": 0.9982207417488098
+          "confidence": 0.9898682236671448
         },
         {
-          "id": 24,
+          "id": 23,
+          "text": "3,40 % p.a. (gebunden bis 30.04.2052)",
+          "bbox": [
+            1192,
+            3187,
+            2270,
+            3277
+          ],
+          "confidence": 0.999339759349823
+        },
+        {
+          "id": 26,
           "text": "Effektivzinssatz:",
           "bbox": [
             629,
@@ -277,76 +290,76 @@
             1112,
             3398
           ],
-          "confidence": 0.9956977963447571
+          "confidence": 0.9934515953063965
         },
         {
           "id": 25,
           "text": "3,47 % p.a.",
           "bbox": [
             1202,
-            3327,
+            3322,
             1522,
-            3398
+            3393
           ],
-          "confidence": 0.9898465871810913
+          "confidence": 0.9818513989448547
         },
         {
           "id": 27,
           "text": "Bearbeitungsgebü",
           "bbox": [
-            563,
-            3452,
-            1118,
-            3534
+            574,
+            3463,
+            1117,
+            3533
           ],
-          "confidence": 0.9881108999252319
-        },
-        {
-          "id": 26,
-          "text": "0,00 EUR (entfallt)",
-          "bbox": [
-            1202,
-            3453,
-            1716,
-            3523
-          ],
-          "confidence": 0.9497310519218445
+          "confidence": 0.9674580097198486
         },
         {
           "id": 28,
-          "text": "hr:",
+          "text": "0,00 EUR(entfällt)",
           "bbox": [
-            1018,
-            3533,
-            1122,
-            3593
+            1207,
+            3458,
+            1716,
+            3523
           ],
-          "confidence": 0.9994073510169983
+          "confidence": 0.8946201801300049
         },
         {
           "id": 29,
+          "text": "hr:",
+          "bbox": [
+            1023,
+            3533,
+            1117,
+            3593
+          ],
+          "confidence": 0.9838373064994812
+        },
+        {
+          "id": 30,
           "text": "(2) Die Zinsen werden taggenau nach der 30/360-Methode berechnet und sind monatlich",
           "bbox": [
-            504,
+            509,
             3674,
             3018,
             3764
           ],
-          "confidence": 0.994206964969635
+          "confidence": 0.9613043665885925
         },
         {
-          "id": 30,
+          "id": 31,
           "text": "nachträglich zum Monatsletzten fällig.",
           "bbox": [
             504,
             3759,
-            1527,
-            3835
+            1532,
+            3834
           ],
-          "confidence": 0.9722273945808411
+          "confidence": 0.9617111086845398
         },
         {
-          "id": 31,
+          "id": 32,
           "text": "$ 4 Laufzeit und Tilgung",
           "bbox": [
             509,
@@ -354,61 +367,61 @@
             1407,
             4025
           ],
-          "confidence": 0.9779999852180481
-        },
-        {
-          "id": 32,
-          "text": "(1) Die Laufzeit des Darlehens beträgt",
-          "bbox": [
-            514,
-            4050,
-            1547,
-            4131
-          ],
-          "confidence": 0.989098310470581
+          "confidence": 0.969961941242218
         },
         {
           "id": 33,
+          "text": "(1) Die Laufzeit des Darlehens beträgt",
+          "bbox": [
+            514,
+            4055,
+            1552,
+            4131
+          ],
+          "confidence": 0.9840027689933777
+        },
+        {
+          "id": 34,
           "text": "28 Jahre (336 Monate)",
           "bbox": [
-            1397,
+            1392,
             4161,
             2145,
             4231
           ],
-          "confidence": 0.9955744743347168
+          "confidence": 0.9985190033912659
         },
         {
-          "id": 34,
+          "id": 35,
           "text": " beginnend mit dem Auszahlungsdatum am 01.05.2024 und endend am 30.04.2052.",
           "bbox": [
             504,
             4256,
-            2784,
+            2779,
             4357
           ],
-          "confidence": 0.988214910030365
+          "confidence": 0.9916077852249146
         }
       ]
     },
     {
       "page": 1,
       "image_file": "page_001_preprocessed.png",
-      "total_lines": 83,
-      "avg_confidence": 0.9886405798326056,
-      "low_confidence_count": 1,
+      "total_lines": 82,
+      "avg_confidence": 0.9860342115890689,
+      "low_confidence_count": 0,
       "removed_artifacts": 0,
       "lines": [
         {
           "id": 1,
-          "text": "(2) Die Tilgung erfoigt in monatlichen Annuitätenraten. Die anfängliche Tilgung beträgt 2,05 %",
+          "text": "(2) Die Tilgung erfolgt in monatlichen Annuitätenraten. Die anfängliche Tilgung betragt 2,05 %",
           "bbox": [
             514,
             457,
             3028,
             547
           ],
-          "confidence": 0.972463071346283
+          "confidence": 0.9457471966743469
         },
         {
           "id": 2,
@@ -419,84 +432,84 @@
             1417,
             607
           ],
-          "confidence": 0.9902150630950928
+          "confidence": 0.9683921337127686
         },
         {
           "id": 3,
           "text": "1.245,83 EUR",
           "bbox": [
-            1511,
-            642,
-            2026,
-            738
+            1516,
+            647,
+            2021,
+            728
           ],
-          "confidence": 0.9994754791259766
+          "confidence": 0.9540650844573975
         },
         {
           "id": 4,
           "text": "Tilgungsplan (Auszug - erste 12 Monate)",
           "bbox": [
-            509,
+            514,
             823,
             1796,
             909
           ],
-          "confidence": 0.9853366017341614
+          "confidence": 0.9863621592521667
         },
         {
           "id": 5,
           "text": "Monat",
           "bbox": [
-            607,
-            937,
-            810,
-            1035
+            619,
+            954,
+            803,
+            1024
           ],
-          "confidence": 0.9978888630867004
+          "confidence": 0.9981727600097656
         },
         {
           "id": 6,
           "text": "Datum",
           "bbox": [
             991,
-            947,
-            1204,
-            1035
+            952,
+            1199,
+            1030
           ],
-          "confidence": 0.9914144277572632
-        },
-        {
-          "id": 8,
-          "text": "Zinsen(EUR)",
-          "bbox": [
-            1975,
-            953,
-            2361,
-            1050
-          ],
-          "confidence": 0.9914777278900146
+          "confidence": 0.9895287752151489
         },
         {
           "id": 7,
-          "text": "Tlgung(EUR)",
+          "text": "TilgungEUR)",
           "bbox": [
-            1392,
-            959,
-            1791,
-            1044
+            1386,
+            958,
+            1771,
+            1034
           ],
-          "confidence": 0.9481686949729919
+          "confidence": 0.9676706790924072
+        },
+        {
+          "id": 8,
+          "text": "ZinsenEUR)",
+          "bbox": [
+            1985,
+            969,
+            2350,
+            1039
+          ],
+          "confidence": 0.9449825286865234
         },
         {
           "id": 9,
-          "text": "Restschuld(EUR)",
+          "text": "Restschuld (EUR)",
           "bbox": [
-            2534,
-            958,
-            3044,
-            1055
+            2544,
+            963,
+            3029,
+            1044
           ],
-          "confidence": 0.9863911867141724
+          "confidence": 0.9105671048164368
         },
         {
           "id": 10,
@@ -505,42 +518,42 @@
             678,
             1074,
             738,
-            1154
+            1149
           ],
-          "confidence": 0.9999473094940186
+          "confidence": 0.9942388534545898
         },
         {
           "id": 11,
           "text": "1.5.2024",
           "bbox": [
-            988,
-            1084,
+            983,
+            1074,
             1217,
-            1139
+            1144
           ],
-          "confidence": 0.9999858140945435
+          "confidence": 0.9963399171829224
         },
         {
           "id": 12,
           "text": "466,66",
           "bbox": [
-            1661,
+            1656,
             1084,
-            1861,
+            1856,
             1154
           ],
-          "confidence": 0.999819278717041
+          "confidence": 0.9974281787872314
         },
         {
           "id": 13,
           "text": "779,17",
           "bbox": [
-            2245,
-            1089,
-            2439,
-            1159
+            2238,
+            1078,
+            2436,
+            1166
           ],
-          "confidence": 0.9998952746391296
+          "confidence": 0.9970426559448242
         },
         {
           "id": 14,
@@ -551,7 +564,7 @@
             3089,
             1176
           ],
-          "confidence": 0.9997403025627136
+          "confidence": 0.9935280680656433
         },
         {
           "id": 15,
@@ -562,18 +575,18 @@
             738,
             1275
           ],
-          "confidence": 0.999968409538269
+          "confidence": 0.9981836676597595
         },
         {
           "id": 16,
           "text": "1.6.2024",
           "bbox": [
-            983,
+            978,
             1199,
-            1222,
+            1217,
             1270
           ],
-          "confidence": 0.9981367588043213
+          "confidence": 0.9999090433120728
         },
         {
           "id": 17,
@@ -584,7 +597,7 @@
             1851,
             1280
           ],
-          "confidence": 0.9999707341194153
+          "confidence": 0.9986458420753479
         },
         {
           "id": 18,
@@ -595,7 +608,7 @@
             2444,
             1280
           ],
-          "confidence": 0.999522864818573
+          "confidence": 0.9930189251899719
         },
         {
           "id": 19,
@@ -603,10 +616,10 @@
           "bbox": [
             2778,
             1209,
-            3079,
+            3084,
             1291
           ],
-          "confidence": 0.9998729825019836
+          "confidence": 0.9957912564277649
         },
         {
           "id": 20,
@@ -617,7 +630,7 @@
             738,
             1390
           ],
-          "confidence": 0.9995627999305725
+          "confidence": 0.9983506202697754
         },
         {
           "id": 21,
@@ -628,29 +641,29 @@
             1217,
             1390
           ],
-          "confidence": 0.9999597072601318
-        },
-        {
-          "id": 23,
-          "text": "469,31",
-          "bbox": [
-            1656,
-            1330,
-            1846,
-            1400
-          ],
-          "confidence": 0.9999608993530273
+          "confidence": 0.9975059032440186
         },
         {
           "id": 22,
-          "text": "776,52",
+          "text": "469,31",
           "bbox": [
-            2238,
+            1650,
             1318,
-            2436,
+            1842,
             1407
           ],
-          "confidence": 0.9998798966407776
+          "confidence": 0.9977021217346191
+        },
+        {
+          "id": 23,
+          "text": "776,52",
+          "bbox": [
+            2245,
+            1330,
+            2429,
+            1405
+          ],
+          "confidence": 0.9993906021118164
         },
         {
           "id": 24,
@@ -658,10 +671,10 @@
           "bbox": [
             2778,
             1329,
-            3094,
+            3089,
             1411
           ],
-          "confidence": 0.9998854398727417
+          "confidence": 0.9906370043754578
         },
         {
           "id": 25,
@@ -670,9 +683,9 @@
             673,
             1435,
             738,
-            1516
+            1511
           ],
-          "confidence": 0.9999440908432007
+          "confidence": 0.998711109161377
         },
         {
           "id": 26,
@@ -680,21 +693,21 @@
           "bbox": [
             972,
             1434,
-            1213,
+            1218,
             1522
           ],
-          "confidence": 0.9999823570251465
+          "confidence": 0.9998962879180908
         },
         {
           "id": 27,
           "text": "470,64",
           "bbox": [
-            1656,
-            1450,
-            1846,
-            1521
+            1650,
+            1439,
+            1847,
+            1527
           ],
-          "confidence": 0.9999392032623291
+          "confidence": 0.9942781329154968
         },
         {
           "id": 28,
@@ -705,18 +718,18 @@
             2429,
             1526
           ],
-          "confidence": 0.9999677538871765
+          "confidence": 0.9998815059661865
         },
         {
           "id": 29,
           "text": "273.125,40",
           "bbox": [
-            2784,
-            1460,
-            3083,
-            1531
+            2778,
+            1450,
+            3079,
+            1537
           ],
-          "confidence": 0.9999265670776367
+          "confidence": 0.9962102174758911
         },
         {
           "id": 30,
@@ -727,7 +740,7 @@
             738,
             1636
           ],
-          "confidence": 0.9995935559272766
+          "confidence": 0.9976646900177002
         },
         {
           "id": 31,
@@ -738,7 +751,7 @@
             1212,
             1636
           ],
-          "confidence": 0.9999891519546509
+          "confidence": 0.9989997148513794
         },
         {
           "id": 32,
@@ -749,7 +762,7 @@
             1846,
             1641
           ],
-          "confidence": 0.9998533725738525
+          "confidence": 0.9971315264701843
         },
         {
           "id": 33,
@@ -757,21 +770,21 @@
           "bbox": [
             2240,
             1576,
-            2439,
+            2444,
             1646
           ],
-          "confidence": 0.9999149441719055
+          "confidence": 0.9676312804222107
         },
         {
           "id": 34,
           "text": "272.653,42",
           "bbox": [
-            2784,
-            1581,
-            3083,
-            1651
+            2779,
+            1576,
+            3073,
+            1646
           ],
-          "confidence": 0.999970555305481
+          "confidence": 0.9870478510856628
         },
         {
           "id": 35,
@@ -782,7 +795,7 @@
             738,
             1757
           ],
-          "confidence": 0.9999027252197266
+          "confidence": 0.998075008392334
         },
         {
           "id": 36,
@@ -790,21 +803,21 @@
           "bbox": [
             958,
             1686,
-            1227,
+            1232,
             1757
           ],
-          "confidence": 0.9999878406524658
+          "confidence": 0.997727632522583
         },
         {
           "id": 37,
           "text": "473,31",
           "bbox": [
             1645,
-            1685,
+            1680,
             1847,
             1768
           ],
-          "confidence": 0.9999544024467468
+          "confidence": 0.9762881398200989
         },
         {
           "id": 38,
@@ -812,10 +825,10 @@
           "bbox": [
             2240,
             1696,
-            2439,
-            1767
+            2434,
+            1772
           ],
-          "confidence": 0.9999502301216125
+          "confidence": 0.9993879795074463
         },
         {
           "id": 39,
@@ -823,10 +836,10 @@
           "bbox": [
             2784,
             1701,
-            3083,
+            3078,
             1772
           ],
-          "confidence": 0.999932587146759
+          "confidence": 0.9995573163032532
         },
         {
           "id": 40,
@@ -837,18 +850,18 @@
             733,
             1872
           ],
-          "confidence": 0.9886654615402222
+          "confidence": 0.9923152923583984
         },
         {
           "id": 41,
           "text": "1.11.2024",
           "bbox": [
-            952,
-            1796,
-            1228,
-            1878
+            958,
+            1807,
+            1227,
+            1877
           ],
-          "confidence": 0.9999754428863525
+          "confidence": 0.999154806137085
         },
         {
           "id": 42,
@@ -859,18 +872,7 @@
             1847,
             1888
           ],
-          "confidence": 0.9998400211334229
-        },
-        {
-          "id": 44,
-          "text": "271.705,46",
-          "bbox": [
-            2773,
-            1816,
-            3084,
-            1898
-          ],
-          "confidence": 0.9997782707214355
+          "confidence": 0.9873359203338623
         },
         {
           "id": 43,
@@ -881,7 +883,18 @@
             2434,
             1887
           ],
-          "confidence": 0.9997007250785828
+          "confidence": 0.9965854287147522
+        },
+        {
+          "id": 44,
+          "text": "271.705,46",
+          "bbox": [
+            2779,
+            1822,
+            3078,
+            1892
+          ],
+          "confidence": 0.9997678995132446
         },
         {
           "id": 45,
@@ -892,18 +905,29 @@
             738,
             1997
           ],
-          "confidence": 0.9986866116523743
+          "confidence": 0.9411306381225586
         },
         {
           "id": 46,
           "text": "1.12.2024",
           "bbox": [
             952,
-            1916,
+            1921,
             1228,
             2003
           ],
-          "confidence": 0.999975860118866
+          "confidence": 0.9969520568847656
+        },
+        {
+          "id": 47,
+          "text": "476,00",
+          "bbox": [
+            1640,
+            1926,
+            1842,
+            2014
+          ],
+          "confidence": 0.9909703731536865
         },
         {
           "id": 48,
@@ -912,42 +936,31 @@
             2233,
             1931,
             2431,
-            2019
+            2014
           ],
-          "confidence": 0.9993500709533691
+          "confidence": 0.986407995223999
         },
         {
           "id": 49,
           "text": "271.229,46",
           "bbox": [
-            2773,
-            1936,
-            3079,
+            2779,
+            1947,
+            3078,
             2018
           ],
-          "confidence": 0.9999549984931946
-        },
-        {
-          "id": 47,
-          "text": "476,00",
-          "bbox": [
-            1651,
-            1937,
-            1846,
-            2008
-          ],
-          "confidence": 0.9996781349182129
+          "confidence": 0.9998525381088257
         },
         {
           "id": 50,
-          "text": "6",
+          "text": "9",
           "bbox": [
-            673,
-            2043,
-            733,
-            2118
+            678,
+            2053,
+            723,
+            2113
           ],
-          "confidence": 0.9998817443847656
+          "confidence": 0.8899070024490356
         },
         {
           "id": 51,
@@ -958,7 +971,7 @@
             1212,
             2123
           ],
-          "confidence": 0.9999867081642151
+          "confidence": 0.9997062683105469
         },
         {
           "id": 52,
@@ -969,29 +982,29 @@
             1841,
             2128
           ],
-          "confidence": 0.9996193051338196
+          "confidence": 0.9632613658905029
         },
         {
           "id": 53,
           "text": "768,48",
           "bbox": [
-            2240,
-            2063,
-            2429,
-            2133
+            2233,
+            2051,
+            2431,
+            2139
           ],
-          "confidence": 0.9999604225158691
+          "confidence": 0.9985990524291992
         },
         {
           "id": 54,
           "text": "270.752,11",
           "bbox": [
-            2779,
-            2068,
-            3073,
-            2138
+            2773,
+            2057,
+            3074,
+            2144
           ],
-          "confidence": 0.9999197125434875
+          "confidence": 0.9944133758544922
         },
         {
           "id": 55,
@@ -1002,51 +1015,51 @@
             743,
             2238
           ],
-          "confidence": 0.999986469745636
+          "confidence": 0.9995431303977966
         },
         {
           "id": 56,
           "text": "1.2.2025",
           "bbox": [
-            973,
+            968,
             2173,
             1212,
             2243
           ],
-          "confidence": 0.9999861717224121
+          "confidence": 0.9998455047607422
         },
         {
           "id": 57,
           "text": "478,70",
           "bbox": [
-            1651,
+            1646,
             2178,
-            1846,
+            1841,
             2248
           ],
-          "confidence": 0.9992403984069824
+          "confidence": 0.9987587332725525
         },
         {
           "id": 58,
           "text": "767,13",
           "bbox": [
-            2233,
-            2172,
-            2431,
-            2260
+            2240,
+            2183,
+            2429,
+            2253
           ],
-          "confidence": 0.9995211958885193
+          "confidence": 0.9983335137367249
         },
         {
           "id": 59,
           "text": "270.273,42",
           "bbox": [
-            2779,
+            2774,
             2188,
             3073,
             2258
           ],
-          "confidence": 0.9982309341430664
+          "confidence": 0.996015727519989
         },
         {
           "id": 60,
@@ -1057,7 +1070,7 @@
             744,
             2367
           ],
-          "confidence": 0.999860405921936
+          "confidence": 0.994896411895752
         },
         {
           "id": 61,
@@ -1068,7 +1081,7 @@
             1212,
             2364
           ],
-          "confidence": 0.9999808669090271
+          "confidence": 0.9973710179328918
         },
         {
           "id": 62,
@@ -1079,29 +1092,29 @@
             1846,
             2369
           ],
-          "confidence": 0.9927995800971985
+          "confidence": 0.9975972771644592
+        },
+        {
+          "id": 63,
+          "text": "765,77",
+          "bbox": [
+            2235,
+            2304,
+            2434,
+            2374
+          ],
+          "confidence": 0.9883301854133606
         },
         {
           "id": 64,
           "text": "269.793,36",
           "bbox": [
             2768,
-            2298,
+            2303,
             3079,
             2385
           ],
-          "confidence": 0.998948872089386
-        },
-        {
-          "id": 63,
-          "text": "765,77 l",
-          "bbox": [
-            2235,
-            2304,
-            2464,
-            2374
-          ],
-          "confidence": 0.9041070938110352
+          "confidence": 0.987385094165802
         },
         {
           "id": 65,
@@ -1112,18 +1125,18 @@
             738,
             2484
           ],
-          "confidence": 0.999987006187439
+          "confidence": 0.9986449480056763
         },
         {
           "id": 66,
           "text": "1.4.2025",
           "bbox": [
-            962,
-            2408,
-            1213,
-            2490
+            968,
+            2414,
+            1207,
+            2484
           ],
-          "confidence": 0.9999787211418152
+          "confidence": 0.997139036655426
         },
         {
           "id": 67,
@@ -1132,9 +1145,9 @@
             1640,
             2413,
             1842,
-            2496
+            2501
           ],
-          "confidence": 0.9993588924407959
+          "confidence": 0.9917535781860352
         },
         {
           "id": 68,
@@ -1142,21 +1155,21 @@
           "bbox": [
             2228,
             2418,
-            2421,
-            2501
+            2426,
+            2506
           ],
-          "confidence": 0.9999513030052185
+          "confidence": 0.9971973299980164
         },
         {
           "id": 69,
-          "text": "269.311,94 ",
+          "text": "269.311,94",
           "bbox": [
-            2763,
+            2768,
             2423,
-            3114,
-            2510
+            3079,
+            2505
           ],
-          "confidence": 0.9883066415786743
+          "confidence": 0.9996597170829773
         },
         {
           "id": 70,
@@ -1167,18 +1180,18 @@
             2155,
             2620
           ],
-          "confidence": 0.9825538396835327
+          "confidence": 0.9702916145324707
         },
         {
           "id": 71,
-          "text": "$ 5 Sicherheiten",
+          "text": "S5 Sicherheiten",
           "bbox": [
             494,
-            2710,
+            2720,
             1098,
-            2791
+            2790
           ],
-          "confidence": 0.9962331056594849
+          "confidence": 0.9325891733169556
         },
         {
           "id": 72,
@@ -1189,43 +1202,32 @@
             2724,
             3016
           ],
-          "confidence": 0.9828109741210938
+          "confidence": 0.9807292819023132
         },
         {
           "id": 73,
-          "text": "Landstraße 56, 60322 Frankfurt am Main, Grundbuch Blatt 12345, Flur 7, Flurstück 89/2.",
+          "text": "Landstraße 56,60322 Frankfurt am Main,Grundbuch Biatt 12345,Flur 7,Flurstück 89/2.",
           "bbox": [
             484,
-            2996,
-            2894,
+            3001,
+            2889,
             3092
           ],
-          "confidence": 0.9937162399291992
+          "confidence": 0.9803358912467957
         },
         {
           "id": 74,
           "text": "b) Abtretung der Rechte aus der Risikolebensversicherung bei der Allianz",
           "bbox": [
-            489,
+            484,
             3091,
             2495,
             3177
           ],
-          "confidence": 0.9920709133148193
+          "confidence": 0.9685461521148682
         },
         {
           "id": 75,
-          "text": "Lebensversicherungs-AG, Versicherungsnummer: LV-2024-987654, Versicherungssumme:",
-          "bbox": [
-            484,
-            3162,
-            2963,
-            3252
-          ],
-          "confidence": 0.9970918893814087
-        },
-        {
-          "id": 76,
           "text": "300.000,00 EUR.",
           "bbox": [
             489,
@@ -1233,10 +1235,10 @@
             963,
             3302
           ],
-          "confidence": 0.9994735717773438
+          "confidence": 0.9878339767456055
         },
         {
-          "id": 77,
+          "id": 76,
           "text": "$ 6 Sondertilgung und Vorfälligkeitsentschädigung",
           "bbox": [
             484,
@@ -1244,18 +1246,29 @@
             2375,
             3513
           ],
-          "confidence": 0.9609955549240112
+          "confidence": 0.9635156393051147
         },
         {
-          "id": 78,
-          "text": "uatadbunedsin uap % oo's nz sie yd!iae! oneoaar is! taaaausuaeaoea uan (t)",
+          "id": 77,
+          "text": "(1) Der Darlehensnehmer ist berechtigt, jährlich bis zu. 5,00 % der ursprünglichen",
           "bbox": [
-            479,
+            484,
             3518,
             3008,
             3624
           ],
-          "confidence": 0.533190906047821
+          "confidence": 0.9731367826461792
+        },
+        {
+          "id": 78,
+          "text": "Darlehenssumme ohne Vorfälligkeitsentschädigung als Sondertilgung zu leisten.",
+          "bbox": [
+            484,
+            3598,
+            2669,
+            3689
+          ],
+          "confidence": 0.974637508392334
         },
         {
           "id": 79,
@@ -1266,21 +1279,10 @@
             1477,
             3900
           ],
-          "confidence": 0.9720422625541687
+          "confidence": 0.9758466482162476
         },
         {
           "id": 80,
-          "text": "(1) Anderungen und Ergänzungen dieses Vertrages bedürfen der Schriftform. (2) Sollten",
-          "bbox": [
-            479,
-            3919,
-            2998,
-            4010
-          ],
-          "confidence": 0.9787613749504089
-        },
-        {
-          "id": 81,
           "text": "einzelne Bestimmungen dieses Vertrages unwirksam sein oder werden, so wird die",
           "bbox": [
             479,
@@ -1288,10 +1290,10 @@
             2998,
             4085
           ],
-          "confidence": 0.9792515635490417
+          "confidence": 0.9833033680915833
         },
         {
-          "id": 82,
+          "id": 81,
           "text": "Wirksamkeit der übrigen Bestimmungen hiervon nicht berührt. (3) Es gilt das Recht der",
           "bbox": [
             479,
@@ -1299,18 +1301,18 @@
             2993,
             4156
           ],
-          "confidence": 0.980411946773529
+          "confidence": 0.9654278755187988
         },
         {
-          "id": 83,
+          "id": 82,
           "text": "Bundesrepublik Deutschland. Gerichtsstand ist Frankfurt am Main.",
           "bbox": [
             479,
             4135,
             2285,
-            4216
+            4221
           ],
-          "confidence": 0.9855970144271851
+          "confidence": 0.9980907440185547
         }
       ]
     },
@@ -1318,7 +1320,7 @@
       "page": 2,
       "image_file": "page_002_preprocessed.png",
       "total_lines": 7,
-      "avg_confidence": 0.9924127033778599,
+      "avg_confidence": 0.9777559127126422,
       "low_confidence_count": 0,
       "removed_artifacts": 0,
       "lines": [
@@ -1328,21 +1330,21 @@
           "bbox": [
             479,
             472,
-            1492,
+            1487,
             547
           ],
-          "confidence": 0.9911695718765259
+          "confidence": 0.9723659753799438
         },
         {
           "id": 2,
-          "text": "Dariehensgeber",
+          "text": "Darlehensgeber",
           "bbox": [
-            923,
+            922,
             737,
-            1352,
-            813
+            1353,
+            819
           ],
-          "confidence": 0.9974480271339417
+          "confidence": 0.9626213312149048
         },
         {
           "id": 3,
@@ -1353,7 +1355,7 @@
             2669,
             798
           ],
-          "confidence": 0.9982902407646179
+          "confidence": 0.9959763288497925
         },
         {
           "id": 4,
@@ -1364,40 +1366,40 @@
             1377,
             873
           ],
-          "confidence": 0.998793363571167
+          "confidence": 0.9847316145896912
         },
         {
           "id": 5,
-          "text": "FINANZBANK AG  HauptstraBe 123  60311 Frankfurt am Main Vorstand: Dr. Andreas Becker, Petra Schmidt !",
+          "text": "FINANZBANK AG HauptstraBe 123( 60311 Frankfurt am Main Vorstand: Dr. Andreas Becker, Petra Schmidt ",
           "bbox": [
             479,
             1094,
             2689,
             1180
           ],
-          "confidence": 0.9745502471923828
+          "confidence": 0.974826991558075
         },
         {
           "id": 6,
-          "text": "Aufsichtsratsvorsitzender: Prof. Dr. Martin Weber Registergericht: Amtsgericht Frankfurt am Main, HRB 98765  BaFin-",
+          "text": "Aufsichtsratsvorsitzender: Prof. Dr. Martin Weber Registergericht: Amtsgericht Frankfurt am Main, HRB 98765  BaFin",
           "bbox": [
             484,
             1144,
-            2824,
-            1235
+            2819,
+            1230
           ],
-          "confidence": 0.9922215938568115
+          "confidence": 0.9593257308006287
         },
         {
           "id": 7,
-          "text": "Zulassung: 123.456.789",
+          "text": "Zulassung:123.456.789",
           "bbox": [
-            489,
-            1225,
+            484,
+            1219,
             978,
-            1275
+            1280
           ],
-          "confidence": 0.9944158792495728
+          "confidence": 0.994443416595459
         }
       ]
     }

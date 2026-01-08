@@ -1,7 +1,7 @@
 FINANZBANK AG
 Hauptniederlassung Frankfurt am Main
 DARLEHENSVERTRAG
-Annuitätendarlehen
+Annuitatendarlehen
 Vertragsnummer: KV-2024-004512
 $ 1 Vertragsparteien
 Zwischen der
@@ -22,11 +22,10 @@ Sollzinssatz:
 2,95 % p.a. (gebunden bis 28.02.2054)
 Effektivzinssatz:
 3,02 % p.a.
-Bearbeitungsgebühr
+Bearbeitungsgebu
 0,00 EUR (entfällt)
 hr:
-(2) Die Zinsen werden taggenau nach der 30/360-Methode berechnet und sind monatlich
-nachträglich zum Monatsletzten fällig
+nachträglich zum Monatsletzten fällig.
 $ 4 Laufzeit und Tilgung
 (1) Die Laufzeit des Darlehens beträgt
 30 Jahre (360 Monate)
