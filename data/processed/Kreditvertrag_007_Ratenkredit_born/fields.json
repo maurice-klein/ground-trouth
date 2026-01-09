@@ -1,8 +1,6 @@
 {
   "document": "Kreditvertrag_007_Ratenkredit_born",
   "vertragsnummer": "RK-2024-007234",
-  "darlehensnehmer": "Stefan Klein",
-  "kreditgeber": "FINANZBANK AG",
   "iban": "DE44500105170999888777",
   "iban_valid": false,
   "bic": "INGDDEFFXXX",
@@ -13,5 +11,17 @@
   "vertragsbeginn": "2024-04-01",
   "vertragsende": "2028-03-31",
   "vertragsdatum": "2024-03-18",
-  "sicherheiten": null
+  "sondertilgung_prozent": 5.0,
+  "darlehensnehmer": "Stefan Klein Zeil",
+  "darlehensnehmer_adresse": {
+    "strasse": null,
+    "plz": "60313",
+    "ort": "Frankfurt am Main"
+  },
+  "kreditgeber": "FINANZBANK AG",
+  "sicherheiten": [
+    {
+      "typ": "keine"
+    }
+  ]
 }

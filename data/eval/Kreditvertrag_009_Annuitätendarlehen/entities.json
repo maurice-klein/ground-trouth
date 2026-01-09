@@ -2,6 +2,11 @@
   "document": "Kreditvertrag_009_Annuitätendarlehen",
   "vertragsnummer": "KV-2024-009890",
   "darlehensnehmer": "Robert Fischer",
+  "darlehensnehmer_adresse": {
+    "strasse": "Alte Gasse 23",
+    "plz": "60313",
+    "ort": "Frankfurt am Main"
+  },
   "kreditgeber": "FINANZBANK AG",
   "iban": "DE21500700100444555666",
   "bic": "DEUTDEFFXXX",
@@ -9,13 +14,33 @@
   "sollzinssatz": 2.85,
   "effektivzinssatz": 2.91,
   "laufzeit": "35 Jahre (420 Monate)",
+  "sondertilgung_prozent": null,
   "vertragsbeginn": null,
   "vertragsende": "2059-04-30",
   "vertragsdatum": "2024-04-15",
   "sicherheiten": [
-    "Grundschuld in Höhe von 500.000,00 EUR",
-    "Selbstschuldnerische Bürgschaft in Höhe von 150.000,00 EUR",
-    "b) Abtretung der Rechte aus der Risikolebensversicherung bei der Allianz Lebensversicherungs-AG, Versicherungsnummer: LV-2024-987654, Versicherungssumme: 450.000,00 EUR."
+    {
+      "typ": "grundschuld",
+      "betrag_text": "500.000,00 EUR",
+      "adresse": {
+        "strasse": "Alte Gasse 23",
+        "plz": "60313",
+        "ort": "Frankfurt am Main"
+      },
+      "grundbuch": {
+        "blatt": "89/2",
+        "flur": "7"
+      }
+    },
+    {
+      "typ": "lebensversicherung",
+      "betrag_text": "450.000,00 EUR",
+      "versicherungsnummer": "LV-2024-987654"
+    },
+    {
+      "typ": "bürgschaft",
+      "betrag_text": "150.000,00 EUR"
+    }
   ],
   "iban_valid": false
 }

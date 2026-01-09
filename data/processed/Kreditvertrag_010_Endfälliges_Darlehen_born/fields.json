@@ -1,8 +1,6 @@
 {
   "document": "Kreditvertrag_010_Endfälliges_Darlehen_born",
   "vertragsnummer": "ED-2024-010123",
-  "darlehensnehmer": "Petra Braun",
-  "kreditgeber": "FINANZBANK AG",
   "iban": "DE89370400440532013000",
   "iban_valid": true,
   "bic": "COBADEFFXXX",
@@ -13,8 +11,33 @@
   "vertragsbeginn": "2024-06-01",
   "vertragsende": "2036-05-31",
   "vertragsdatum": "2024-04-22",
+  "sondertilgung_prozent": 5.0,
+  "darlehensnehmer": "Petra Braun",
+  "darlehensnehmer_adresse": {
+    "strasse": "Savignystraße 67",
+    "plz": "60325",
+    "ort": "Frankfurt am Main"
+  },
+  "kreditgeber": "ANZBANK AG",
   "sicherheiten": [
-    "Grundschuld 185.000,00 EUR",
-    "Lebensversicherung 175.000,00 EUR"
+    {
+      "typ": "grundschuld",
+      "betrag_text": "185.000,00 EUR",
+      "adresse": {
+        "strasse": "Savignystraße 67",
+        "plz": "60325",
+        "ort": "Frankfurt am Main"
+      },
+      "grundbuch": {
+        "blatt": "12345",
+        "flur": "7",
+        "flurstueck": "89/2"
+      }
+    },
+    {
+      "typ": "lebensversicherung",
+      "betrag_text": "175.000,00 EUR",
+      "versicherungsnummer": "LV-2024-987654"
+    }
   ]
 }

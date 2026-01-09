@@ -1,8 +1,6 @@
 {
   "document": "Kreditvertrag_005_Endfälliges_Darlehen",
   "vertragsnummer": "ED-2024-005678",
-  "darlehensnehmer": "Michael Hoffmann",
-  "kreditgeber": "FINANZBANK AG",
   "iban": "DE89370400440987654321",
   "iban_valid": false,
   "bic": "COBADEFFXXX",
@@ -13,8 +11,28 @@
   "vertragsbeginn": "2024-04-01",
   "vertragsende": "2034-03-31",
   "vertragsdatum": "2024-02-25",
+  "sondertilgung_prozent": 5.0,
+  "darlehensnehmer": "Michael Hoffmann",
+  "darlehensnehmer_adresse": {
+    "strasse": "Mainzer Landstraße 102",
+    "plz": "60327",
+    "ort": "Mainzer Landstraße"
+  },
+  "kreditgeber": "NANZBANK AG",
   "sicherheiten": [
-    "Grundschuld 220.000,00 EUR",
-    "Lebensversicherung 200.000,00 EUR"
+    {
+      "typ": "grundschuld",
+      "betrag_text": "220.000,00 EUR",
+      "adresse": {
+        "strasse": "Mainzer Landstraße 102",
+        "plz": "60327",
+        "ort": "Frankfurt am Main"
+      }
+    },
+    {
+      "typ": "lebensversicherung",
+      "betrag_text": "200.000,00 EUR",
+      "versicherungsnummer": "LV-2024-987654"
+    }
   ]
 }

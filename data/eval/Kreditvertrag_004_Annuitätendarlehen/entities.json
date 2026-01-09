@@ -1,0 +1,46 @@
+{
+  "document": "Kreditvertrag_004_Annuitätendarlehen_born",
+  "vertragsnummer": "KV-2024-004512",
+  "darlehensnehmer": "Julia Wagner",
+  "darlehensnehmer_adresse": {
+    "strasse": "Goethestraße 34",
+    "plz": "60311",
+    "ort": "Frankfurt am Main"
+  },
+  "kreditgeber": "FINANZBANK AG",
+  "iban": "DE21500700100012345678",
+  "bic": "DEUTDEFFXXX",
+  "darlehenssumme": 320000.0,
+  "sollzinssatz": 2.95,
+  "effektivzinssatz": 3.02,
+  "laufzeit": "30 Jahre (360 Monate)",
+  "sondertilgung_prozent": 5.0,
+  "vertragsbeginn": "2024-03-01",
+  "vertragsende": "2054-02-28",
+  "vertragsdatum": "2024-02-12",
+  "sicherheiten": [
+    {
+      "typ": "grundschuld",
+      "betrag_text": "380.000,00 EUR",
+      "adresse": {
+        "strasse": "Goethestraße 34",
+        "plz": "60311"
+      },
+      "grundbuch": {
+        "blatt": "12345",
+        "flur": "7",
+        "flurstueck": "89/2"
+      }
+    },
+    {
+      "typ": "lebensverssicherung",
+      "versicherungsnummer": "LV-2024-987654",
+      "betrag_text": "350.000,00 EUR"
+    },
+    {
+      "typ": "bürgschaft",
+      "betrag_text": "100.000,00 EUR"
+    }
+  ],
+  "iban_valid": false
+}

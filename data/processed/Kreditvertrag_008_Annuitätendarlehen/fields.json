@@ -1,8 +1,6 @@
 {
   "document": "Kreditvertrag_008_Annuitätendarlehen",
   "vertragsnummer": "KV-2024-008567",
-  "darlehensnehmer": "Christina Meyer",
-  "kreditgeber": "FINANZBANK AG",
   "iban": "DE89370400440111222333",
   "iban_valid": false,
   "bic": "COBADEFFXXX",
@@ -13,7 +11,27 @@
   "vertragsbeginn": "2024-05-01",
   "vertragsende": "2052-04-30",
   "vertragsdatum": "2024-04-02",
+  "sondertilgung_prozent": 5.0,
+  "darlehensnehmer": "Christina Meyer",
+  "darlehensnehmer_adresse": {
+    "strasse": "Eschersheimer Landstraße 56",
+    "plz": "60322",
+    "ort": "Eschersheimer Landstraße"
+  },
+  "kreditgeber": "FINANZBANK AG",
   "sicherheiten": [
-    "Grundschuld 330.000,00 EUR"
+    {
+      "typ": "grundschuld",
+      "betrag_text": "330.000,00 EUR",
+      "adresse": {
+        "strasse": "Eschersheimer Landstraße 56",
+        "plz": "60322",
+        "ort": "Frankfurt am Main"
+      }
+    },
+    {
+      "typ": "lebensversicherung",
+      "betrag_text": "300.000,00 EUR"
+    }
   ]
 }

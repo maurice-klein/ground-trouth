@@ -1,8 +1,6 @@
 {
   "document": "Kreditvertrag_002_Annuitätendarlehen - Kopie",
   "vertragsnummer": "KV-2024-002456",
-  "darlehensnehmer": "Anna Schmidt",
-  "kreditgeber": "FINANZBANK AG",
   "iban": "DE89370400440532013000",
   "iban_valid": true,
   "bic": "COBADEFFXXX",
@@ -13,7 +11,23 @@
   "vertragsbeginn": "2024-03-01",
   "vertragsende": "2049-02-28",
   "vertragsdatum": "2024-01-20",
+  "sondertilgung_prozent": 5.0,
+  "darlehensnehmer": "Anna Schmidt",
+  "darlehensnehmer_adresse": {
+    "strasse": "Bahnhofstraße 12",
+    "plz": "60329",
+    "ort": "Frankfurt am Main"
+  },
+  "kreditgeber": "EINANZBANKAG",
   "sicherheiten": [
-    "Grundschuld 300.000,00 EUR"
+    {
+      "typ": "grundschuld",
+      "betrag_text": "300.000,00 EUR",
+      "adresse": {
+        "strasse": null,
+        "plz": "60329",
+        "ort": "Frankfurt am Main"
+      }
+    }
   ]
 }

@@ -1,8 +1,6 @@
 {
   "document": "Kreditvertrag_003_Ratenkredit",
   "vertragsnummer": "RK-2024-003789",
-  "darlehensnehmer": "Thomas Becker",
-  "kreditgeber": "FINANZBANK AG",
   "iban": "DE44500105170123456789",
   "iban_valid": false,
   "bic": "INGDDEFFXXX",
@@ -13,7 +11,17 @@
   "vertragsbeginn": "2024-03-01",
   "vertragsende": "2029-02-28",
   "vertragsdatum": "2024-02-08",
+  "sondertilgung_prozent": null,
+  "darlehensnehmer": "Thomas Becker",
+  "darlehensnehmer_adresse": {
+    "strasse": "Friedrichstraße 78",
+    "plz": "60323",
+    "ort": "Frankfurt am Main"
+  },
+  "kreditgeber": "FINANZBANK AG",
   "sicherheiten": [
-    "Keine (Blankokredit)"
+    {
+      "typ": "keine"
+    }
   ]
 }

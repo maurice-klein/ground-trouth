@@ -2,6 +2,11 @@
   "document": "Kreditvertrag_001_Annuitätendarlehen_born",
   "vertragsnummer": "KV-2024-001234",
   "darlehensnehmer": "Max Mustermann",
+  "darlehensnehmer_adresse": {
+    "strasse": "Musterstraße 45",
+    "plz": "60313",
+    "ort": "Frankfurt am Main"
+  },
   "kreditgeber": "FINANZBANK AG",
   "iban": "DE12500105170648489890",
   "bic": "INGDDEFFXXX",
@@ -9,13 +14,34 @@
   "sollzinssatz": 3.5,
   "effektivzinssatz": 3.58,
   "laufzeit": "20 Jahre (240 Monate)",
+  "sondertilgung_prozent": 5.0,
   "vertragsbeginn": "2024-02-01",
   "vertragsende": "2044-01-31",
   "vertragsdatum": "2024-01-15",
   "sicherheiten": [
-    "Grundschuld in Höhe von 180.000,00 EUR",
-    "b) Abtretung der Rechte aus der Risikolebensversicherung bei der Allianz Lebensversicherungs-AG, Versicherungsnummer: LV-2024-987654, Versicherungssumme: 200.000,00 EUR.",
-    "Selbstschuldnerische Bürgschaft bis zur Höhe von 75.000,00 EUR"
+    {
+      "typ": "grundschuld",
+      "betrag_text": "180.000,00 EUR",
+      "adresse": {
+        "strasse": "Musterstraße 45",
+        "plz": "60313",
+        "ort": "Frankfurt am Main"
+      },
+      "grundbuch": {
+        "blatt": "12345",
+        "flur": "7",
+        "flurstueck": "89/2"
+      }
+    },
+    {
+      "typ": "lebensversicherung",
+      "versicherungsnummer": "LV-2024-987654",
+      "betrag_text": "200.000,00 EUR"
+    },
+    {
+      "typ": "bürgschaft",
+      "betrag_text": "75.000,00 EUR"
+    }
   ],
   "iban_valid": true
 }

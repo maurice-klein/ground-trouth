@@ -2,6 +2,10 @@
   "document": "Kreditvertrag_005_Endfälliges_Darlehen",
   "vertragsnummer": "ED-2024-005678",
   "darlehensnehmer": "Michael Hoffmann",
+  "darlehensnehmer_adresse": {
+    "strasse": "Mainzer Landstraße 102",
+    "plz": "60327"
+  },
   "kreditgeber": "FINANZBANK AG",
   "iban": "DE89370400440987654321",
   "bic": "COBADEFFXXX",
@@ -9,12 +13,30 @@
   "sollzinssatz": 4.1,
   "effektivzinssatz": 4.18,
   "laufzeit": "10 Jahre (120 Monate)",
+  "sondertilgung_prozent": 5.0,
   "vertragsbeginn": "2024-04-01",
   "vertragsende": "2024-03-31",
   "vertragsdatum": "2024-02-25",
   "sicherheiten": [
-    "Grundschuld in Höhe von 220.000,00 EUR",
-    "b) Abtretung der Rechte aus der Risikolebensversicherung bei der Allianz Lebensversicherungs-AG, Versicherungsnummer: LV-2024-987654, Versicherungssumme: 200.000,00 EUR."
+    {
+      "typ": "grundschuld",
+      "betrag_text": "220.000,00 EUR",
+      "adresse": {
+        "strasse": "Mainzer Landstrße 102",
+        "plz": "60327",
+        "ort": "Frankfurt am Main"
+      },
+      "grundbuch": {
+        "blatt": "12345",
+        "flur": "7",
+        "flurstueck": "89/2"
+      }
+    },
+    {
+      "typ": "lebensversicherung",
+      "betrag_text": "200.000,00 EUR",
+      "versicherungsnummer": "LV-2024-987654"
+    }
   ],
   "iban_valid": false
 }

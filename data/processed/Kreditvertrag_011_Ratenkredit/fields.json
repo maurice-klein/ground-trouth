@@ -1,8 +1,6 @@
 {
   "document": "Kreditvertrag_011_Ratenkredit",
   "vertragsnummer": "RK-2024-011456",
-  "darlehensnehmer": "Oliver Weber",
-  "kreditgeber": "FINANZBANK AG",
   "iban": "DE44500105170321654987",
   "iban_valid": false,
   "bic": "INGDDEFFXXX",
@@ -13,7 +11,19 @@
   "vertragsbeginn": "2024-06-01",
   "vertragsende": "2030-05-31",
   "vertragsdatum": "2024-05-06",
+  "sondertilgung_prozent": 5.0,
+  "darlehensnehmer": "Oliver Weber",
+  "darlehensnehmer_adresse": {
+    "strasse": "Hanauer Landstraße 145",
+    "plz": "60314",
+    "ort": "Hanauer Landstraße"
+  },
+  "kreditgeber": "FINANZBANK AG",
   "sicherheiten": [
-    "Lebensversicherung 40.000,00 EUR"
+    {
+      "typ": "lebensversicherung",
+      "betrag_text": "40.000,00 EUR",
+      "versicherungsnummer": "LV-2024-987654"
+    }
   ]
 }

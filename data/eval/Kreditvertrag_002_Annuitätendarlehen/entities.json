@@ -2,6 +2,11 @@
   "document": "Kreditvertrag_002_Annuitätendarlehen_-_Kopie",
   "vertragsnummer": "KV-2024-002456",
   "darlehensnehmer": "Anna Schmidt",
+  "darlehensnehmer_adresse": {
+    "strasse": "Bahnhofsstraße 12",
+    "plz": "60392",
+    "ort": "Frankfurt am Main"
+  },
   "kreditgeber": "FINANZBANK AG",
   "iban": "DE89370400440532013000",
   "bic": "COBADEFFXXX",
@@ -9,12 +14,30 @@
   "sollzinssatz": 3.25,
   "effektivzinssatz": 3.31,
   "laufzeit": "25 Jahre (300 Monate)",
+  "sondertilgung_prozent": 5.0,
   "vertragsbeginn": "2024-03-01",
   "vertragsende": "2049-02-28",
   "vertragsdatum": "2024-01-20",
   "sicherheiten": [
-    "Grundschuld in Höhe von 300.000,00 EUR",
-    "b) Abtretung der Rechte aus der Risikolebensversicherung bei der Allianz Lebensversicherungs-AG, Versicherungsnummer: LV-2024-987654, Versicherungssumme: 300.000,00 EUR."
+    {
+      "typ": "grundschuld",
+      "betrag_text": "300.000,00 EUR",
+      "adresse": {
+        "strasse": "Bahnhofstraße 12",
+        "plz": "60329",
+        "ort": "Frankfurt am Main"
+      },
+      "grundbuch": {
+        "blatt": "12345",
+        "flur": "7",
+        "flurstueck": "89/2"
+      }
+    },
+    {
+      "typ": "lebensversicherung",
+      "versicherungsnummer": "LV-2024-987654",
+      "betrag_text": "300.000,00 EUR"
+    }
   ],
   "iban_valid": true
 }
