@@ -63,15 +63,15 @@ Die Wahrheit über einzelne Felder liegt im jeweiligen Ground-Truth-Dokument. De
 
 ## Sicherheits- und Datenschutzgrenzen
 
-Das öffentliche Repository enthält Datenklassen, die als personenbezogen und finanziell sensibel behandelt werden müssen, solange synthetische Herkunft oder wirksame Anonymisierung nicht belegt sind. Der Code besitzt keine Zugriffskontrolle, Verschlüsselung, Löschfristen, Redaction oder Secret-Verwaltung; Schutz hängt vollständig von Dateisystem, Git-Hosting und Arbeitsweise ab.
+Das öffentliche Repository enthält realitätsnahe, aber vollständig synthetische Personen-, Konto- und Kreditvertragswerte. Maurice bestätigte diesen Datenstatus am 17.10.2026. Damit enthält der geprüfte Bestand keine realen personenbezogenen Vertragsdaten.
 
-Vor weiterer Nutzung sind mindestens erforderlich:
+Die Schutzgrenze bleibt verbindlich:
 
-- Datensatzinventar mit Herkunft, Freigabe, Schutzklasse und Aufbewahrung,
-- automatischer Scan auf direkte und indirekte Identifikatoren,
-- getrennte private Datenablage statt Git für nicht öffentliche Rohdaten,
-- bereinigter synthetischer Beispieldatensatz für Tests und Demos,
-- dokumentiertes Lösch- und Incident-Verfahren einschließlich Git-Historie und Forks.
+- nur synthetische Dokumente und Annotationen in Git aufnehmen,
+- Herkunft und Generator beziehungsweise Erstellungsweg neuer Datensatzversionen dokumentieren,
+- automatisiert auf versehentlich eingebrachte reale Identifikatoren oder Secret-Werte prüfen,
+- reale Rohdaten ausschließlich in einer dafür freigegebenen privaten Datenumgebung verarbeiten,
+- bei einem versehentlichen Real-Daten-Commit das Lösch- und Incident-Verfahren einschließlich Git-Historie und Forks auslösen.
 
 ## Betrieb und Reproduzierbarkeit
 
@@ -81,7 +81,7 @@ Der zuletzt versionierte Bericht dokumentiert einen historischen Evaluationslauf
 
 ## Sicherung und Wiederherstellung
 
-Git enthält derzeit Code, Ground Truth, abgeleitete Daten und Berichte. Das ist Versionsverwaltung, aber kein geeigneter Sicherungs- oder Datenschutzweg für möglicherweise sensible Rohdaten. Ein getrenntes Backupziel, Aufbewahrung, RPO/RTO und Restore-Test sind nicht dokumentiert.
+Git enthält derzeit Code, synthetische Ground Truth, abgeleitete Daten und Berichte. Das ist Versionsverwaltung, aber kein unabhängiger Sicherungsweg. Ein getrenntes Backupziel, Aufbewahrung, RPO/RTO und Restore-Test sind nicht dokumentiert.
 
 ## Technische Entscheidungen und offene Punkte
 

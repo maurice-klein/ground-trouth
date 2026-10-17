@@ -54,19 +54,18 @@ Ein datierter Bericht mit aggregierten Qualitätsmetriken und Detailansichten pr
 
 ## Daten- und Freigabegrenze
 
-Der Code verarbeitet potenziell hochsensible Vertrags- und Identifikationsfelder, darunter Namen, Adressen, Vertragsnummern, IBAN/BIC, Beträge, Laufzeiten und Sicherheiten. Das Repository ist öffentlich. Im geprüften Stand ist nicht dokumentiert, ob sämtliche versionierten Daten synthetisch, wirksam anonymisiert oder anderweitig zur Veröffentlichung freigegeben sind.
+Der Code verarbeitet realitätsnahe Vertrags- und Identifikationsfelder, darunter Namen, Adressen, Vertragsnummern, IBAN/BIC, Beträge, Laufzeiten und Sicherheiten. Maurice hat am 17.10.2026 bestätigt, dass der vollständige Bestand synthetisch ist und keine realen Personen oder Verträge abbildet.
 
-Bis zur Klärung gilt:
+Für die weitere Pflege gilt:
 
-- keine konkreten Werte in Wiki, Tickets, Präsentationen oder öffentliche Berichte übernehmen,
-- keine neuen Roh- oder Zwischenstände pushen,
-- Herkunft, Rechtsgrundlage beziehungsweise Freigabe und Anonymisierung je Datensatz dokumentieren,
-- bei echten personenbezogenen Daten Veröffentlichung stoppen und eine bereinigte Historie als gesonderte Sicherheitsmaßnahme planen.
+- neue Dokumente und Feldwerte bleiben vollständig synthetisch,
+- die synthetische Herkunft wird bei neuen Datensatzversionen festgehalten,
+- reale Dokumente werden nicht in dieses öffentliche Repository übernommen,
+- Berichte verwenden möglichst aggregierte Metriken statt unnötiger Einzelfalldaten.
 
 ## Offene fachliche Fragen
 
-- Wem gehört der Referenzbestand und für welchen Zweck darf er verwendet werden?
-- Sind alle Dokumente nachweislich synthetisch oder vollständig anonymisiert?
+- Wie wird die synthetische Herkunft neuer Datensatzversionen dauerhaft nachgewiesen?
 - Welche Qualitätsgrenzen gelten für OCR, Felder und Tabellen, und wer gibt sie frei?
 - Welche Fehler sind für den späteren Fachprozess kritisch, auch wenn eine Gesamtmetrik gut aussieht?
 - Wie werden Annotationen versioniert, reviewed und gegen unbeabsichtigte Änderungen geschützt?

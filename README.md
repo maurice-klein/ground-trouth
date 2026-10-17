@@ -9,9 +9,9 @@ Dieses Repository enthält eine lokale Auswertungsstrecke für die Bachelor-IDP-
 - Zentrale Konfiguration: `configs/base.yaml`
 - Evaluationslauf: `src/eval/run_eval.py`
 
-## Wichtige Grenze
+## Datenstatus
 
-Das Repository ist öffentlich. Die Herkunft, Freigabe und vollständige Anonymisierung der versionierten Dokument- und Ground-Truth-Bestände ist im geprüften Stand nicht dokumentiert. Bis diese Frage geklärt ist, dürfen Datensätze und abgeleitete Inhalte nicht als frei veröffentlichbare Testdaten behandelt werden. Konkrete Personen-, Vertrags-, Konto- oder Betragswerte gehören nicht in Dokumentation, Issues oder externe Berichte.
+Maurice hat am 17.10.2026 bestätigt, dass der vollständige Dokument- und Ground-Truth-Bestand synthetisch ist. Enthaltene Personen-, Vertrags-, Konto- und Betragswerte sind Testdaten und bilden keine realen Personen oder Verträge ab. Neue Datensätze dürfen nur aufgenommen werden, wenn dieser synthetische Charakter erhalten und nachvollziehbar dokumentiert bleibt.
 
 ## Reproduzierbarkeit
 
