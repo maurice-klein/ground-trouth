@@ -63,9 +63,11 @@ Für die weitere Pflege gilt:
 - reale Dokumente werden nicht in dieses öffentliche Repository übernommen,
 - Berichte verwenden möglichst aggregierte Metriken statt unnötiger Einzelfalldaten.
 
+Der verbindliche Freigabeprozess für neue Datensatzversionen steht in [Datensatz-Governance](dataset-governance.md). Die aktuelle Bestätigung, der gebundene Git-Bestand und offene Herkunftslücken werden zusätzlich in `data/eval/dataset-card.json` geführt. Damit ist die synthetische Eigenschaft nicht nur eine README-Aussage, sondern ein prüfbarer Bestandteil jeder künftigen Datensatzänderung.
+
 ## Offene fachliche Fragen
 
-- Wie wird die synthetische Herkunft neuer Datensatzversionen dauerhaft nachgewiesen?
+- Mit welchem Generator oder manuellen Verfahren wurden die zwölf bestehenden Dokumente ursprünglich erzeugt? Die nachträgliche Bestätigung vom 17.10.2026 belegt den synthetischen Status, aber noch nicht den Erstellungsweg.
 - Welche Qualitätsgrenzen gelten für OCR, Felder und Tabellen, und wer gibt sie frei?
 - Welche Fehler sind für den späteren Fachprozess kritisch, auch wenn eine Gesamtmetrik gut aussieht?
 - Wie werden Annotationen versioniert, reviewed und gegen unbeabsichtigte Änderungen geschützt?

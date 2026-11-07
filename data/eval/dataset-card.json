@@ -1,0 +1,61 @@
+{
+  "schema_version": "1.0",
+  "dataset_id": "ground-trouth-credit-contracts-synthetic",
+  "dataset_version": "2026-01-09-historical-v1",
+  "status": "historical-reviewed",
+  "owner": "Maurice Klein",
+  "purpose": "Reference data for local IDP extraction evaluation",
+  "synthetic_data": {
+    "confirmed": true,
+    "confirmed_by": "Maurice Klein",
+    "confirmed_on": "2026-10-17",
+    "scope": "Complete versioned document and ground-truth corpus",
+    "creation_method": "unknown",
+    "generator": "unknown",
+    "generator_version": "unknown"
+  },
+  "content": {
+    "documents": 12,
+    "label_studio_images": 36,
+    "data_classes": [
+      "synthetic personal identity",
+      "synthetic address",
+      "synthetic contract identifiers",
+      "synthetic bank identifiers",
+      "synthetic financial amounts",
+      "synthetic repayment schedules"
+    ]
+  },
+  "provenance": {
+    "annotation_tool": "Label Studio",
+    "annotation_tool_version": "unknown",
+    "annotation_process": "manual annotation with repository conversion script",
+    "source_exports": [
+      {
+        "path": "data/eval/raw/label_studio_export.json",
+        "git_blob": "22657f1624be9625f9ac26db6220b19f10b4263a"
+      },
+      {
+        "path": "data/eval/raw/label_studio_export2.json",
+        "git_blob": "3bad6d24bfa6823c76492cc0f326dd4f496df4ea"
+      }
+    ],
+    "generated_metadata": {
+      "path": "data/eval/metadata.json",
+      "git_blob": "ee2f7880ca7b56c71097c1bcbdcc9342e7740711"
+    }
+  },
+  "review": {
+    "reviewed_on": "2026-11-07",
+    "reviewed_repository_commit": "bc7cb4719035ba0280c8ede59c55124ab427aea5",
+    "reviewed_data_tree": "4cc2ee77b436e6ccebbb50f34d5a8aa98b38322a",
+    "evidence_type": "repository documentation, Git object binding and owner attestation",
+    "limitations": [
+      "Historical creation method and generator are not evidenced",
+      "Label Studio version is not evidenced",
+      "No formal data schemas or automated provenance validator exist",
+      "No independent backup or restore test is evidenced"
+    ]
+  },
+  "release_rule": "Every dataset change requires an updated dataset card and explicit synthetic-data review in the same change."
+}
