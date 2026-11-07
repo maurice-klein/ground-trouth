@@ -24,6 +24,8 @@ Das Repository bildet eine dateibasierte, lokal ausgeführte Evaluationsstrecke:
 
 Die Wahrheit über einzelne Felder liegt im jeweiligen Ground-Truth-Dokument. Der Bericht ist eine abgeleitete Sicht und ersetzt weder Annotation noch Pipeline-Ausgabe.
 
+`data/eval/dataset-card.json` ist der maschinenlesbare Herkunfts- und Freigabenachweis. Die [Datensatz-Governance](dataset-governance.md) definiert, wann diese Karte aktualisiert werden muss und welche Prüfung vor einer neuen Version erforderlich ist. Die Karte bindet den am 07.11.2026 geprüften Stand über Git-Objekt-IDs; sie ist kein Ersatz für ein späteres formales JSON-Schema oder einen automatisierten Validator.
+
 ## Schnittstellen
 
 ### PDF → Seitenbilder
@@ -68,7 +70,7 @@ Das öffentliche Repository enthält realitätsnahe, aber vollständig synthetis
 Die Schutzgrenze bleibt verbindlich:
 
 - nur synthetische Dokumente und Annotationen in Git aufnehmen,
-- Herkunft und Generator beziehungsweise Erstellungsweg neuer Datensatzversionen dokumentieren,
+- Herkunft und Generator beziehungsweise Erstellungsweg neuer Datensatzversionen in der Datensatzkarte dokumentieren,
 - automatisiert auf versehentlich eingebrachte reale Identifikatoren oder Secret-Werte prüfen,
 - reale Rohdaten ausschließlich in einer dafür freigegebenen privaten Datenumgebung verarbeiten,
 - bei einem versehentlichen Real-Daten-Commit das Lösch- und Incident-Verfahren einschließlich Git-Historie und Forks auslösen.
@@ -90,3 +92,4 @@ Git enthält derzeit Code, synthetische Ground Truth, abgeleitete Daten und Beri
 - Der diagnostische Best-Permutation-Vergleich hilft bei vertauschten Spalten, darf den strengeren Produktionsnachweis nicht ersetzen.
 - Abhängigkeiten, Modellversionen, Label-Studio-Version und Datenformat müssen versioniert werden.
 - Generierte `__pycache__`-Dateien sind teilweise bereits versioniert; ein unversionierter weiterer Cache wurde bei der Prüfung bewusst nicht verändert.
+- Die Datensatzkarte formalisiert Review und Revisionsbindung. Ein automatisierter Schema-/Hash-Validator und ein belegter ursprünglicher Generator bleiben offen.
